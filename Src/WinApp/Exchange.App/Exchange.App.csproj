@@ -54,9 +54,13 @@
       <HintPath>bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v18.2.Core, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -438,6 +442,12 @@
     <Compile Include="Pages\Operation\UserAccessLevelPage.Designer.cs">
       <DependentUpon>UserAccessLevelPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ReportPage\AccountReviewPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\ReportPage\AccountReviewPage.Designer.cs">
+      <DependentUpon>AccountReviewPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ReportPage\BalanceSheetPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -696,14 +706,17 @@
     <EmbeddedResource Include="Pages\ReportPage\AccountSideReportPage.ku-Arab-IR.resx">
       <DependentUpon>AccountSideReportPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ReportPage\AccountReviewPage.ku-Arab-IR.resx">
+      <DependentUpon>AccountReviewPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ReportPage\AccountReviewPage.resx">
+      <DependentUpon>AccountReviewPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\ReportPage\BalanceSheetPage.ku-Arab-IR.resx">
       <DependentUpon>BalanceSheetPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\ReportPage\BalanceSheetPage.resx">
       <DependentUpon>BalanceSheetPage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pages\ReportPage\DailyListReportPage.fa-IR.resx">
-      <DependentUpon>DailyListReportPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\ReportPage\DailyListReportPage.resx">
       <DependentUpon>DailyListReportPage.cs</DependentUpon>
@@ -793,6 +806,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ExchangeIcon.ico" />
+    <None Include="Resources\users.png" />
+    <None Include="Resources\users1.png" />
+    <None Include="Resources\dollar_currency.png" />
+    <None Include="Resources\recycle.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\euro_currency.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\paper_48.png" />
+    <None Include="Resources\kbackgammon_engine.png" />
+    <None Include="Resources\1.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

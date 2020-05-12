@@ -33,6 +33,10 @@ namespace Exchange.Domain.Entities
         public decimal BesPrice { get; set; } // decimal(18,2)
 
         [Required]
+        [Display(Name = "Buy Price")]
+        public decimal Cost { get; set; } // decimal(18,2)
+
+        [Required]
         [Display(Name = "Currency Id")]
         public int CurrencyId { get; set; } // int
 

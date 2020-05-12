@@ -1,4 +1,6 @@
-﻿namespace Exchange.App.Pages.Operation
+﻿using DevExpress.XtraEditors;
+
+namespace Exchange.App.Pages.Operation
 {
     partial class GetDataDocumentPage
     {
@@ -36,7 +38,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.cmbCurrency = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.btnOk = new DevComponents.DotNetBar.ButtonX();
             this.txtEntity = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.label7 = new System.Windows.Forms.Label();
             this.lblAccountCode = new System.Windows.Forms.Label();
@@ -46,6 +47,7 @@
             this.txtBestankar = new CurMoney.CurMoney();
             this.txtRatePrice = new CurMoney.CurMoney();
             this.chkCalc = new MetroFramework.Controls.MetroCheckBox();
+            this.btnOk = new DevExpress.XtraEditors.SimpleButton();
             this.SuspendLayout();
             // 
             // label1
@@ -92,32 +94,17 @@
             // 
             // cmbCurrency
             // 
-            resources.ApplyResources(this.cmbCurrency, "cmbCurrency");
             this.cmbCurrency.DisplayMember = "Text";
             this.cmbCurrency.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            resources.ApplyResources(this.cmbCurrency, "cmbCurrency");
             this.cmbCurrency.ForeColor = System.Drawing.Color.Black;
             this.cmbCurrency.FormattingEnabled = true;
             this.cmbCurrency.Name = "cmbCurrency";
             this.cmbCurrency.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cmbCurrency.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cmbCurrency_KeyDown);
             // 
-            // btnOk
-            // 
-            resources.ApplyResources(this.btnOk, "btnOk");
-            this.btnOk.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnOk.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnOk.ImagePosition = DevComponents.DotNetBar.eImagePosition.Right;
-            this.btnOk.ImageTextSpacing = 30;
-            this.btnOk.Name = "btnOk";
-            this.btnOk.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnOk.Symbol = "";
-            this.btnOk.SymbolSize = 12F;
-            this.btnOk.TextAlignment = DevComponents.DotNetBar.eButtonTextAlignment.Right;
-            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
-            // 
             // txtEntity
             // 
-            resources.ApplyResources(this.txtEntity, "txtEntity");
             this.txtEntity.BackColor = System.Drawing.Color.White;
             // 
             // 
@@ -125,16 +112,9 @@
             this.txtEntity.Border.Class = "TextBoxBorder";
             this.txtEntity.Border.CornerDiameter = 6;
             this.txtEntity.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.txtEntity.ButtonCustom.DisplayPosition = ((int)(resources.GetObject("txtEntity.ButtonCustom.DisplayPosition")));
-            this.txtEntity.ButtonCustom.Image = ((System.Drawing.Image)(resources.GetObject("txtEntity.ButtonCustom.Image")));
-            this.txtEntity.ButtonCustom.Text = resources.GetString("txtEntity.ButtonCustom.Text");
-            this.txtEntity.ButtonCustom.Tooltip = resources.GetString("txtEntity.ButtonCustom.Tooltip");
-            this.txtEntity.ButtonCustom2.DisplayPosition = ((int)(resources.GetObject("txtEntity.ButtonCustom2.DisplayPosition")));
-            this.txtEntity.ButtonCustom2.Image = ((System.Drawing.Image)(resources.GetObject("txtEntity.ButtonCustom2.Image")));
-            this.txtEntity.ButtonCustom2.Text = resources.GetString("txtEntity.ButtonCustom2.Text");
-            this.txtEntity.ButtonCustom2.Tooltip = resources.GetString("txtEntity.ButtonCustom2.Tooltip");
             this.txtEntity.DisabledBackColor = System.Drawing.Color.White;
             this.txtEntity.ForeColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.txtEntity, "txtEntity");
             this.txtEntity.Name = "txtEntity";
             this.txtEntity.PreventEnterBeep = true;
             this.txtEntity.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtEntity_KeyDown);
@@ -156,8 +136,8 @@
             // 
             // txtBed
             // 
-            resources.ApplyResources(this.txtBed, "txtBed");
             this.txtBed.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.txtBed, "txtBed");
             this.txtBed.ForeColor = System.Drawing.Color.Black;
             this.txtBed.Name = "txtBed";
             this.txtBed.Precision = CurMoney.CurMoney.Precision_List.Four;
@@ -167,8 +147,8 @@
             // 
             // txtBes
             // 
-            resources.ApplyResources(this.txtBes, "txtBes");
             this.txtBes.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.txtBes, "txtBes");
             this.txtBes.ForeColor = System.Drawing.Color.Black;
             this.txtBes.Name = "txtBes";
             this.txtBes.Precision = CurMoney.CurMoney.Precision_List.Four;
@@ -178,8 +158,8 @@
             // 
             // txtBedehkar
             // 
-            resources.ApplyResources(this.txtBedehkar, "txtBedehkar");
             this.txtBedehkar.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.txtBedehkar, "txtBedehkar");
             this.txtBedehkar.ForeColor = System.Drawing.Color.Black;
             this.txtBedehkar.Name = "txtBedehkar";
             this.txtBedehkar.Precision = CurMoney.CurMoney.Precision_List.Four;
@@ -189,8 +169,8 @@
             // 
             // txtBestankar
             // 
-            resources.ApplyResources(this.txtBestankar, "txtBestankar");
             this.txtBestankar.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.txtBestankar, "txtBestankar");
             this.txtBestankar.ForeColor = System.Drawing.Color.Black;
             this.txtBestankar.Name = "txtBestankar";
             this.txtBestankar.Precision = CurMoney.CurMoney.Precision_List.Four;
@@ -200,8 +180,8 @@
             // 
             // txtRatePrice
             // 
-            resources.ApplyResources(this.txtRatePrice, "txtRatePrice");
             this.txtRatePrice.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.txtRatePrice, "txtRatePrice");
             this.txtRatePrice.ForeColor = System.Drawing.Color.Black;
             this.txtRatePrice.Name = "txtRatePrice";
             this.txtRatePrice.Precision = CurMoney.CurMoney.Precision_List.Four;
@@ -218,10 +198,20 @@
             this.chkCalc.UseSelectable = true;
             this.chkCalc.CheckedChanged += new System.EventHandler(this.chkCalc_CheckedChanged);
             // 
+            // btnOk
+            // 
+            this.btnOk.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton1.Appearance.Font")));
+            this.btnOk.Appearance.Options.UseFont = true;
+            this.btnOk.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
+            resources.ApplyResources(this.btnOk, "btnOk");
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
+            // 
             // GetDataDocumentPage
             // 
-            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.btnOk);
             this.Controls.Add(this.chkCalc);
             this.Controls.Add(this.txtRatePrice);
             this.Controls.Add(this.txtBestankar);
@@ -231,7 +221,6 @@
             this.Controls.Add(this.lblAccountCode);
             this.Controls.Add(this.txtEntity);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.btnOk);
             this.Controls.Add(this.cmbCurrency);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -263,7 +252,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private DevComponents.DotNetBar.Controls.ComboBoxEx cmbCurrency;
-        private DevComponents.DotNetBar.ButtonX btnOk;
         private DevComponents.DotNetBar.Controls.TextBoxX txtEntity;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblAccountCode;
@@ -273,5 +261,6 @@
         private CurMoney.CurMoney txtBestankar;
         private CurMoney.CurMoney txtRatePrice;
         private MetroFramework.Controls.MetroCheckBox chkCalc;
+        private SimpleButton btnOk;
     }
 }

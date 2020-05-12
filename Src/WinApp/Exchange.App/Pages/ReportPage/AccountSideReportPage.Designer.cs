@@ -59,14 +59,6 @@
             this.txtEntity.Border.Class = "TextBoxBorder";
             this.txtEntity.Border.CornerDiameter = 6;
             this.txtEntity.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.txtEntity.ButtonCustom.DisplayPosition = ((int)(resources.GetObject("txtEntity.ButtonCustom.DisplayPosition")));
-            this.txtEntity.ButtonCustom.Image = ((System.Drawing.Image)(resources.GetObject("txtEntity.ButtonCustom.Image")));
-            this.txtEntity.ButtonCustom.Text = resources.GetString("txtEntity.ButtonCustom.Text");
-            this.txtEntity.ButtonCustom.Tooltip = resources.GetString("txtEntity.ButtonCustom.Tooltip");
-            this.txtEntity.ButtonCustom2.DisplayPosition = ((int)(resources.GetObject("txtEntity.ButtonCustom2.DisplayPosition")));
-            this.txtEntity.ButtonCustom2.Image = ((System.Drawing.Image)(resources.GetObject("txtEntity.ButtonCustom2.Image")));
-            this.txtEntity.ButtonCustom2.Text = resources.GetString("txtEntity.ButtonCustom2.Text");
-            this.txtEntity.ButtonCustom2.Tooltip = resources.GetString("txtEntity.ButtonCustom2.Tooltip");
             this.txtEntity.DisabledBackColor = System.Drawing.Color.White;
             this.txtEntity.ForeColor = System.Drawing.Color.Black;
             this.txtEntity.Name = "txtEntity";
@@ -84,10 +76,10 @@
             // 
             // cmbCurrency
             // 
-            resources.ApplyResources(this.cmbCurrency, "cmbCurrency");
             this.cmbCurrency.DisplayMember = "Text";
             this.cmbCurrency.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbCurrency.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.cmbCurrency, "cmbCurrency");
             this.cmbCurrency.ForeColor = System.Drawing.Color.Black;
             this.cmbCurrency.FormattingEnabled = true;
             this.cmbCurrency.Name = "cmbCurrency";
@@ -103,10 +95,10 @@
             // 
             // btnPrintReport
             // 
-            resources.ApplyResources(this.btnPrintReport, "btnPrintReport");
             this.btnPrintReport.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnPrintReport.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnPrintReport.ImagePosition = DevComponents.DotNetBar.eImagePosition.Right;
+            resources.ApplyResources(this.btnPrintReport, "btnPrintReport");
             this.btnPrintReport.Name = "btnPrintReport";
             this.btnPrintReport.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.btnPrintReport.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -116,12 +108,12 @@
             // 
             // btnExpoerExcel
             // 
-            resources.ApplyResources(this.btnExpoerExcel, "btnExpoerExcel");
             this.btnExpoerExcel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnExpoerExcel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnExpoerExcel.Image = global::Exchange.App.Properties.Resources.ExportExelNew;
             this.btnExpoerExcel.ImageFixedSize = new System.Drawing.Size(42, 42);
             this.btnExpoerExcel.ImagePosition = DevComponents.DotNetBar.eImagePosition.Right;
+            resources.ApplyResources(this.btnExpoerExcel, "btnExpoerExcel");
             this.btnExpoerExcel.Name = "btnExpoerExcel";
             this.btnExpoerExcel.Shape = new DevComponents.DotNetBar.EllipticalShapeDescriptor();
             this.btnExpoerExcel.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -129,8 +121,8 @@
             // 
             // dgvEx
             // 
-            resources.ApplyResources(this.dgvEx, "dgvEx");
             this.dgvEx.AlternatingRowFormatStyle.BackColor = System.Drawing.Color.WhiteSmoke;
+            resources.ApplyResources(this.dgvEx, "dgvEx");
             this.dgvEx.BackColor = System.Drawing.Color.White;
             resources.ApplyResources(dgvEx_DesignTimeLayout, "dgvEx_DesignTimeLayout");
             this.dgvEx.DesignTimeLayout = dgvEx_DesignTimeLayout;
@@ -145,8 +137,8 @@
             // 
             // AccountSideReportPage
             // 
-            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.dgvEx);
             this.Controls.Add(this.btnExpoerExcel);

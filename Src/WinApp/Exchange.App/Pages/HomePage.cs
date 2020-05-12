@@ -1,5 +1,6 @@
 using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
@@ -66,6 +67,8 @@ namespace Exchange.App.Pages
 
         private void HomePage_Load(object sender, EventArgs e)
         {
+
+            SetStyleColor();
             var c = Controls.OfType<TileItem>().Cast<Control>().ToList();
             var ctl = Controls.OfType<ButtonX>().Cast<Control>().ToList();
             UtilityClass.SetPermissoin(c);
@@ -82,6 +85,29 @@ namespace Exchange.App.Pages
             lblDate.Text = PersianDateTime.Now.Year + @"/" + PersianDateTime.Now.Month.ToString("0#") + @"/" +
                            PersianDateTime.Now.Day.ToString("0#");
             lblUser.Text = UtilityClass.FullName;
+        }
+
+        private void SetStyleColor()
+        {
+            Random random=new Random();
+            foreach (ITileItem item in tileGroupBaseinfo.Items)
+            {
+                var color = Color.FromArgb(random.Next(0, 256), random.Next(0, 256), 0);
+
+                item.Appearances.Normal.BackColor = color;
+            }
+            foreach (ITileItem item in tileGroupOperation.Items)
+            {
+                var color = Color.FromArgb(random.Next(0, 256), random.Next(0, 256), 0);
+
+                item.Appearances.Normal.BackColor = color;
+            }
+            foreach (ITileItem item in tileGroupReports.Items)
+            {
+                var color = Color.FromArgb(random.Next(0, 256), random.Next(0, 256), 0);
+
+                item.Appearances.Normal.BackColor = color;
+            }
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -270,6 +296,12 @@ namespace Exchange.App.Pages
         private void xtileSetting_ItemClick(object sender, TileItemEventArgs e)
         {
             var page=new SettingPage();
+            page.ShowDialog();
+        }
+
+        private void tileAccountReview_ItemClick(object sender, TileItemEventArgs e)
+        {
+            var page = new AccountReviewPage();
             page.ShowDialog();
         }
     }

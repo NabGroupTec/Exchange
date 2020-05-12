@@ -8,9 +8,9 @@ using Telerik.WinControls.UI;
 
 namespace Exchange.App.Pages.ReportPage
 {
-    public partial class BalanceSheetPage : RadForm
+    public partial class AccountReviewPage : RadForm
     {
-        public BalanceSheetPage()
+        public AccountReviewPage()
         {
             //var culture = Exchange.App.Properties.Settings.Default.Language;
             //Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
@@ -195,7 +195,6 @@ GROUP BY C.Name,
             dgv.RootTable.Columns[3].AggregateFunction = AggregateFunction.Sum;
             dgv.RootTable.Columns[5].AggregateFunction = AggregateFunction.Sum;
             dgv.RootTable.Columns[6].AggregateFunction = AggregateFunction.Sum;
-            txtProfit.Text = CalculateProfit().ToString(CultureInfo.InvariantCulture);
         }
 
         private double CalculateProfit()

@@ -2,13 +2,14 @@
 using System.Data;
 using System.Windows.Forms;
 using DevComponents.DotNetBar.Metro;
+using DevExpress.XtraEditors;
 using Exchange.App.Infrastracture;
 using Exchange.App.Properties;
 using Exchange.Domain.DataAccess;
 
 namespace Exchange.App.Pages.ReportPage
 {
-    public partial class DailyListReportPage : MetroForm
+    public partial class DailyListReportPage : XtraForm
     {
         private DataView _dv = new DataView();
 
@@ -29,11 +30,10 @@ namespace Exchange.App.Pages.ReportPage
                     "SELECT * FROM VoucherHeaders H JOIN VoucherLines L ON H.Id=L.VoucherHeaderId JOIN Currencies c ON L.CurrencyId=C.Id WHERE ManualDate='" +
                     txtDate.Text.Replace("-", "/") + "'";
 
-                dgv.AutoGenerateColumns = false;
                 var dt = UtilityClass.GetData(sql);
                 _dv = dt.DefaultView;
 
-                dgv.DataSource = _dv;
+                gridControl.DataSource = _dv;
             }
         }
 
@@ -44,12 +44,6 @@ namespace Exchange.App.Pages.ReportPage
             txtDate.Value = DateTime.Now;
             GetReport();
         }
-
-
-        private void txtEntity_TextChanged(object sender, EventArgs e)
-        {
-        }
-
         private void AccountSideReportPage_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Escape)
@@ -64,10 +58,13 @@ namespace Exchange.App.Pages.ReportPage
         {
             GetReport();
         }
+        private void btnPrintReport_Click(object sender, EventArgs e)
+        {
 
+        }
         private void txtFind_TextChanged(object sender, EventArgs e)
         {
-            var query = " Comment LIKE '%" + txtFind.Text + "%'";
+var query = " Comment LIKE '%" + txtFind.Text + "%'";
             _dv.RowFilter = query;
         }
     }

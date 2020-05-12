@@ -301,7 +301,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;radGroupBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="radGroupBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -316,7 +316,7 @@
     <value>2, 18</value>
   </data>
   <data name="dgv.Size" type="System.Drawing.Size, System.Drawing">
-    <value>764, 313</value>
+    <value>764, 345</value>
   </data>
   <data name="dgv.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -343,7 +343,7 @@
     <value>Yes</value>
   </data>
   <data name="radGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>768, 333</value>
+    <value>768, 365</value>
   </data>
   <data name="radGroupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -361,60 +361,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;radGroupBox2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="txtProfit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>IRANSans, 10pt</value>
-  </data>
-  <data name="txtProfit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>360, 469</value>
-  </data>
-  <data name="txtProfit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 30</value>
-  </data>
-  <data name="txtProfit.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="txtProfit.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;txtProfit.Name" xml:space="preserve">
-    <value>txtProfit</value>
-  </data>
-  <data name="&gt;&gt;txtProfit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtProfit.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtProfit.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>577, 474</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 20</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>سود  نــاویژه</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -430,10 +376,10 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>تــــــرازنامه</value>
+    <value>مرور حساب</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>BalanceSheetPage</value>
+    <value>AccountReviewPage</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>Telerik.WinControls.UI.RadForm, Telerik.WinControls.UI, Version=2019.2.618.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e</value>

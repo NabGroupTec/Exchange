@@ -117,67 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="clnDate.HeaderText" xml:space="preserve">
-    <value>تاریخ</value>
-  </data>
-  <data name="clnId.HeaderText" xml:space="preserve">
-    <value>کد</value>
-  </data>
-  <data name="clnDisc.HeaderText" xml:space="preserve">
-    <value>شرح</value>
-  </data>
-  <data name="clnCurrencyId.HeaderText" xml:space="preserve">
-    <value>ارز</value>
-  </data>
-  <data name="clnBedehkar.HeaderText" xml:space="preserve">
-    <value>بد</value>
-  </data>
-  <data name="clnBestankar.HeaderText" xml:space="preserve">
-    <value>بس</value>
-  </data>
-  <data name="clnMandeh.HeaderText" xml:space="preserve">
-    <value>مانده</value>
-  </data>
-  <data name="btnPrintReport.Text" xml:space="preserve">
-    <value>چاپ گزارش</value>
+  <data name="btnTackReport.Text" xml:space="preserve">
+    <value> نیشاندانی راپورت</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 29</value>
+  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 20</value>
+    <value>58, 20</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>تاریخ</value>
+    <value>تا ڕێکەوتی</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txtFind.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="ToDate.Text" xml:space="preserve">
+    <value>2019/07/02</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txtFind.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 29</value>
   </data>
-  <data name="txtFind.ButtonCustom.Text" xml:space="preserve">
-    <value />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
   </data>
-  <data name="txtFind.ButtonCustom.Tooltip" xml:space="preserve">
-    <value />
+  <data name="label1.Text" xml:space="preserve">
+    <value>له ڕێکەوتی</value>
   </data>
-  <data name="txtFind.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="fromDate.Text" xml:space="preserve">
+    <value>2019/07/02</value>
   </data>
-  <data name="txtFind.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="radGroupBox1.HeaderText" xml:space="preserve">
+    <value>بپاڵێوە</value>
   </data>
-  <data name="txtFind.ButtonCustom2.Text" xml:space="preserve">
-    <value />
+  <data name="radGroupBox1.Text" xml:space="preserve">
+    <value>بپاڵێوە</value>
   </data>
-  <data name="txtFind.ButtonCustom2.Tooltip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtFind.WatermarkText" xml:space="preserve">
-    <value>قسمتی از عبارت را وارد نمائید</value>
+  <data name="dgv_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="AccountName"&gt;&lt;Caption&gt;حیساب&lt;/Caption&gt;&lt;DataMember&gt;AccountName&lt;/DataMember&gt;&lt;Key&gt;AccountName&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;Column1 ID="Name"&gt;&lt;Caption&gt; لایەن حیساب&lt;/Caption&gt;&lt;DataMember&gt;Name&lt;/DataMember&gt;&lt;Key&gt;Name&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;/Column1&gt;&lt;Column2 ID="Bed"&gt;&lt;Caption&gt;قەرزدار&lt;/Caption&gt;&lt;DataMember&gt;Bed&lt;/DataMember&gt;&lt;Key&gt;Bed&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;/Column2&gt;&lt;Column3 ID="Bes"&gt;&lt;Caption&gt;خاوەنقەرز&lt;/Caption&gt;&lt;DataMember&gt;Bes&lt;/DataMember&gt;&lt;Key&gt;Bes&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;/Column3&gt;&lt;Column4 ID="Currency"&gt;&lt;Caption&gt;پارە بیانی&lt;/Caption&gt;&lt;DataMember&gt;Currency&lt;/DataMember&gt;&lt;Key&gt;Currency&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;/Column4&gt;&lt;Column5 ID="BedMaster"&gt;&lt;Caption&gt;قەرزدارین&lt;/Caption&gt;&lt;DataMember&gt;BedMaster&lt;/DataMember&gt;&lt;Key&gt;BedMaster&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;/Column5&gt;&lt;Column6 ID="BesMaster"&gt;&lt;Caption&gt;خاوەنقەرزین&lt;/Caption&gt;&lt;DataMember&gt;BesMaster&lt;/DataMember&gt;&lt;Key&gt;BesMaster&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;/Column6&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;Groups Collection="true" ElementName="Group"&gt;&lt;Group0 ID="Group0"&gt;&lt;ColIndex&gt;0&lt;/ColIndex&gt;&lt;/Group0&gt;&lt;/Groups&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>دفتر روزانه</value>
+    <value>دەفتەری گشتی حیسابەکان</value>
   </data>
 </root>

@@ -48,6 +48,7 @@
             DevExpress.XtraEditors.TileItemElement tileItemElement17 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement18 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement19 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement20 = new DevExpress.XtraEditors.TileItemElement();
             this.metroTileItem1 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.galleryContainer2 = new DevComponents.DotNetBar.GalleryContainer();
             this.buttonItem23 = new DevComponents.DotNetBar.ButtonItem();
@@ -93,6 +94,7 @@
             this.xtileReportMoein = new DevExpress.XtraEditors.TileItem();
             this.xtileReportDaily = new DevExpress.XtraEditors.TileItem();
             this.xtileReportBalanceSheet = new DevExpress.XtraEditors.TileItem();
+            this.tileAccountReview = new DevExpress.XtraEditors.TileItem();
             this.tileGroupSystem = new DevExpress.XtraEditors.TileGroup();
             this.xtileSetting = new DevExpress.XtraEditors.TileItem();
             this.TileExit = new DevExpress.XtraEditors.SimpleButton();
@@ -365,9 +367,8 @@
             this.tileControl1.Groups.Add(this.tileGroupOperation);
             this.tileControl1.Groups.Add(this.tileGroupReports);
             this.tileControl1.Groups.Add(this.tileGroupSystem);
-            this.tileControl1.MaxId = 20;
+            this.tileControl1.MaxId = 21;
             this.tileControl1.Name = "tileControl1";
-            this.tileControl1.Position = 601;
             // 
             // tileGroupBaseinfo
             // 
@@ -392,8 +393,8 @@
             // 
             this.xtileCustomer.AppearanceItem.Hovered.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.xtileCustomer.AppearanceItem.Hovered.Options.UseBackColor = true;
-            tileItemElement1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            tileItemElement1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("resource.SvgImage")));
+            tileItemElement1.ImageOptions.Image = global::Exchange.App.Properties.Resources._1;
+            tileItemElement1.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement1, "tileItemElement1");
             this.xtileCustomer.Elements.Add(tileItemElement1);
             this.xtileCustomer.Id = 8;
@@ -404,6 +405,8 @@
             // 
             // xtileCurrency
             // 
+            tileItemElement2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            tileItemElement2.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement2, "tileItemElement2");
             this.xtileCurrency.Elements.Add(tileItemElement2);
             this.xtileCurrency.Id = 0;
@@ -414,6 +417,7 @@
             // 
             // xtileBank
             // 
+            tileItemElement3.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement3, "tileItemElement3");
             this.xtileBank.Elements.Add(tileItemElement3);
             this.xtileBank.Id = 1;
@@ -424,6 +428,7 @@
             // 
             // xtileCoins
             // 
+            tileItemElement4.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement4, "tileItemElement4");
             this.xtileCoins.Elements.Add(tileItemElement4);
             this.xtileCoins.Id = 2;
@@ -434,6 +439,7 @@
             // 
             // xtileCashBox
             // 
+            tileItemElement5.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement5, "tileItemElement5");
             this.xtileCashBox.Elements.Add(tileItemElement5);
             this.xtileCashBox.Id = 3;
@@ -444,6 +450,7 @@
             // 
             // xtileCost
             // 
+            tileItemElement6.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement6, "tileItemElement6");
             this.xtileCost.Elements.Add(tileItemElement6);
             this.xtileCost.Id = 4;
@@ -454,6 +461,7 @@
             // 
             // xtileIncome
             // 
+            tileItemElement7.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement7, "tileItemElement7");
             this.xtileIncome.Elements.Add(tileItemElement7);
             this.xtileIncome.Id = 5;
@@ -464,6 +472,7 @@
             // 
             // xtileAccount
             // 
+            tileItemElement8.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement8, "tileItemElement8");
             this.xtileAccount.Elements.Add(tileItemElement8);
             this.xtileAccount.Id = 6;
@@ -474,6 +483,7 @@
             // 
             // xtileProperty
             // 
+            tileItemElement9.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement9, "tileItemElement9");
             this.xtileProperty.Elements.Add(tileItemElement9);
             this.xtileProperty.Id = 7;
@@ -482,6 +492,8 @@
             // 
             // xtileEmployee
             // 
+            tileItemElement10.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            tileItemElement10.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement10, "tileItemElement10");
             this.xtileEmployee.Elements.Add(tileItemElement10);
             this.xtileEmployee.Id = 9;
@@ -492,6 +504,7 @@
             // 
             // xtileGetDoc
             // 
+            tileItemElement11.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement11, "tileItemElement11");
             this.xtileGetDoc.Elements.Add(tileItemElement11);
             this.xtileGetDoc.Id = 10;
@@ -502,6 +515,7 @@
             // 
             // xtilePayDoc
             // 
+            tileItemElement12.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement12, "tileItemElement12");
             this.xtilePayDoc.Elements.Add(tileItemElement12);
             this.xtilePayDoc.Id = 11;
@@ -511,6 +525,7 @@
             // 
             // xtileUsers
             // 
+            tileItemElement13.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement13, "tileItemElement13");
             this.xtileUsers.Elements.Add(tileItemElement13);
             this.xtileUsers.Id = 12;
@@ -521,6 +536,7 @@
             // 
             // xtileEstate
             // 
+            tileItemElement14.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement14, "tileItemElement14");
             this.xtileEstate.Elements.Add(tileItemElement14);
             this.xtileEstate.Id = 13;
@@ -537,6 +553,8 @@
             // 
             // xtileOpDocument
             // 
+            tileItemElement15.ImageOptions.Image = global::Exchange.App.Properties.Resources.paper_48;
+            tileItemElement15.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement15, "tileItemElement15");
             this.xtileOpDocument.Elements.Add(tileItemElement15);
             this.xtileOpDocument.Id = 14;
@@ -550,11 +568,14 @@
             this.tileGroupReports.Items.Add(this.xtileReportMoein);
             this.tileGroupReports.Items.Add(this.xtileReportDaily);
             this.tileGroupReports.Items.Add(this.xtileReportBalanceSheet);
+            this.tileGroupReports.Items.Add(this.tileAccountReview);
             this.tileGroupReports.Name = "tileGroupReports";
             resources.ApplyResources(this.tileGroupReports, "tileGroupReports");
             // 
             // xtileReportMoein
             // 
+            tileItemElement16.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            tileItemElement16.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
             resources.ApplyResources(tileItemElement16, "tileItemElement16");
             this.xtileReportMoein.Elements.Add(tileItemElement16);
             this.xtileReportMoein.Id = 15;
@@ -565,6 +586,7 @@
             // 
             // xtileReportDaily
             // 
+            tileItemElement17.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             resources.ApplyResources(tileItemElement17, "tileItemElement17");
             this.xtileReportDaily.Elements.Add(tileItemElement17);
             this.xtileReportDaily.Id = 16;
@@ -583,6 +605,15 @@
             this.xtileReportBalanceSheet.Tag = "ReportTotal";
             this.xtileReportBalanceSheet.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.xtileReportBalanceSheet_ItemClick);
             // 
+            // tileAccountReview
+            // 
+            resources.ApplyResources(tileItemElement19, "tileItemElement19");
+            this.tileAccountReview.Elements.Add(tileItemElement19);
+            this.tileAccountReview.Id = 20;
+            this.tileAccountReview.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
+            this.tileAccountReview.Name = "tileAccountReview";
+            this.tileAccountReview.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileAccountReview_ItemClick);
+            // 
             // tileGroupSystem
             // 
             this.tileGroupSystem.Items.Add(this.xtileSetting);
@@ -591,8 +622,10 @@
             // 
             // xtileSetting
             // 
-            resources.ApplyResources(tileItemElement19, "tileItemElement19");
-            this.xtileSetting.Elements.Add(tileItemElement19);
+            tileItemElement20.ImageOptions.Image = global::Exchange.App.Properties.Resources.kbackgammon_engine;
+            tileItemElement20.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
+            resources.ApplyResources(tileItemElement20, "tileItemElement20");
+            this.xtileSetting.Elements.Add(tileItemElement20);
             this.xtileSetting.Id = 18;
             this.xtileSetting.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.xtileSetting.Name = "xtileSetting";
@@ -682,5 +715,6 @@
         private DevExpress.XtraEditors.TileItem xtileReportBalanceSheet;
         private DevExpress.XtraEditors.TileItem xtileSetting;
         private DevExpress.XtraEditors.SimpleButton TileExit;
+        private DevExpress.XtraEditors.TileItem tileAccountReview;
     }
 }

@@ -56,16 +56,10 @@ namespace Exchange.App.Pages.ReportPage
                 string sql;
 
                 if (currencyValue != null && (int) cmbCurrency.SelectedValue != 0)
-                    sql = @"SELECT h.Id DocId,h.ManualDate,h.Comment,l.CurrencyId,l.BedPrice,l.BesPrice,Mandeh=0.0,T=N' ',Master=0.0  ,l.BedTMIN,l.BesTMIN
-                FROM VoucherHeaders H JOIN VoucherLines L ON H.Id = L.VoucherHeaderId
-                JOIN Currencies c ON L.CurrencyId = C.Id";
-                        //"SELECT *,Mandeh=0.0,T=N' ',Master=0.0  FROM VoucherHeaders H JOIN VoucherLines L ON H.Id=L.VoucherHeaderId JOIN Currencies c ON L.CurrencyId=C.Id WHERE L.EntityCode=" +
-                        //lblAccountCode.Text + " AND L.CurrencyId=" + currencyValue;
+                    sql ="SELECT h.Id DocId,*,Mandeh=0.0,T=N' ',Master=0.0,c.Name Currency  FROM VoucherHeaders H JOIN VoucherLines L ON H.Id=L.VoucherHeaderId JOIN Currencies c ON L.CurrencyId=C.Id WHERE L.EntityCode=" +
+                          lblAccountCode.Text + " AND L.CurrencyId=" + currencyValue;
                 else
-                    sql =
-                        //"SELECT *,Mandeh=0.0,T=N' ',Master=0.0 FROM VoucherHeaders H JOIN VoucherLines L ON H.Id=L.VoucherHeaderId JOIN Currencies c ON L.CurrencyId=C.Id WHERE L.EntityCode=" +
-                        //lblAccountCode.Text;
-                        @"SELECT h.Id DocId,h.ManualDate,h.Comment,c.Name Currency,l.BedPrice,l.BesPrice,Mandeh=0.0,T=N' ',Master=0.0 ,l.BedTMIN,l.BesTMIN 
+                    sql = @"SELECT h.Id DocId,h.ManualDate,h.Comment,c.Name Currency,l.BedPrice,l.BesPrice,Mandeh=0.0,T=N' ',Master=0.0 ,l.BedTMIN,l.BesTMIN 
                 FROM VoucherHeaders H JOIN VoucherLines L ON H.Id = L.VoucherHeaderId
                 JOIN Currencies c ON L.CurrencyId = C.Id";
 
@@ -134,13 +128,13 @@ namespace Exchange.App.Pages.ReportPage
             dt.Columns["T"].ReadOnly = false;
             dt.Columns["Master"].ReadOnly = false;
             dt.Columns["T"].MaxLength = 50;
-            double Oldmon;
             for (var i = 0; i < dt.Rows.Count; i++)
             {
+                double oldmon;
                 if (i == 0)
-                    Oldmon = 0;
+                    oldmon = 0;
                 else
-                    Oldmon = double.Parse(dt.Rows[i - 1]["Mandeh"].ToString());
+                    oldmon = double.Parse(dt.Rows[i - 1]["Mandeh"].ToString());
 
                 var newmon = double.Parse(dt.Rows[i]["BedPrice"].ToString()) > 0
                     ? double.Parse(dt.Rows[i]["BedPrice"].ToString())
@@ -158,7 +152,7 @@ namespace Exchange.App.Pages.ReportPage
                     newmon = double.Parse(dt.Rows[i]["BedPrice"].ToString()) +
                              double.Parse(dt.Rows[i]["BesPrice"].ToString()) * -1;
 
-                var demands = newmon + Oldmon;
+                var demands = newmon + oldmon;
                 dt.Rows[i]["Mandeh"] = demands;
                 dt.Rows[i]["T"] = double.Parse(dt.Rows[i]["Mandeh"].ToString()) >= 0 ? "بد" : "بس";
             }

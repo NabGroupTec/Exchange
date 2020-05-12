@@ -117,538 +117,532 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 20</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;txtBestankar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="txtBes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 32</value>
-  </data>
-  <data name="&gt;&gt;txtEntity.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtBes.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cmbCurrency.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 33</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txtBestankar.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="txtBedehkar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>IRANSans, 11pt</value>
-  </data>
-  <data name="txtBed.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="txtBestankar.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;chkCalc.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;cmbCurrency.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblAccountCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 20</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>مبلغ بستانکاری</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 282</value>
-  </data>
-  <data name="&gt;&gt;txtRatePrice.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtRatePrice.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="chkCalc.Text" xml:space="preserve">
-    <value>محاسبه براساس مبلغ کل دریافتی</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>398, 198</value>
-  </data>
-  <data name="cmbCurrency.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="txtBestankar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>IRANSans, 11pt</value>
-  </data>
-  <data name="&gt;&gt;txtRatePrice.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="txtBestankar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 32</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>IRANSans, 9pt</value>
-  </data>
-  <data name="&gt;&gt;lblAccountCode.Name" xml:space="preserve">
-    <value>lblAccountCode</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>اطلاعات سند</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;txtBedehkar.Name" xml:space="preserve">
-    <value>txtBedehkar</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="txtBedehkar.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="txtBed.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="txtEntity.WatermarkText" xml:space="preserve">
-    <value>طرف حساب</value>
-  </data>
-  <data name="&gt;&gt;txtBes.Type" xml:space="preserve">
-    <value>CurMoney.CurMoney, CurMoney, Version=1.0.4649.23025, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 20</value>
-  </data>
-  <data name="cmbCurrency.WatermarkText" xml:space="preserve">
-    <value>ارز را انتخاب نمائبد</value>
-  </data>
-  <data name="chkCalc.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>ارز</value>
-  </data>
-  <data name="txtEntity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 32</value>
-  </data>
-  <data name="label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>مبلغ بدهکاری</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtEntity.ButtonCustom2.Tooltip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="txtEntity.ButtonCustom.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtEntity.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="btnOk.Text" xml:space="preserve">
-    <value>ثبت</value>
-  </data>
-  <data name="&gt;&gt;lblAccountCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txtBedehkar.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 20</value>
-  </data>
-  <data name="&gt;&gt;txtEntity.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="txtBedehkar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 32</value>
-  </data>
-  <data name="&gt;&gt;txtBed.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txtBes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 92</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 138</value>
-  </data>
-  <data name="txtEntity.ButtonCustom.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;chkCalc.Name" xml:space="preserve">
-    <value>chkCalc</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>GetDataDocumentPage</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblAccountCode.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="txtEntity.ButtonCustom2.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;lblAccountCode.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtBed.Name" xml:space="preserve">
-    <value>txtBed</value>
-  </data>
-  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=14.1.0.14, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtEntity.ButtonCustom2.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="&gt;&gt;txtBes.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 20</value>
-  </data>
-  <data name="lblAccountCode.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
-    <value>btnOk</value>
-  </data>
-  <data name="txtBes.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="cmbCurrency.Font" type="System.Drawing.Font, System.Drawing">
-    <value>IRANSans, 11pt</value>
-  </data>
-  <data name="&gt;&gt;chkCalc.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;cmbCurrency.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=14.1.0.14, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;txtBedehkar.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;txtRatePrice.Name" xml:space="preserve">
-    <value>txtRatePrice</value>
-  </data>
-  <data name="&gt;&gt;txtBestankar.Type" xml:space="preserve">
-    <value>CurMoney.CurMoney, CurMoney, Version=1.0.4649.23025, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="txtBestankar.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;txtBestankar.Name" xml:space="preserve">
-    <value>txtBestankar</value>
-  </data>
-  <data name="&gt;&gt;txtBes.Name" xml:space="preserve">
-    <value>txtBes</value>
-  </data>
-  <data name="txtEntity.ButtonCustom.DisplayPosition" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txtEntity.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=14.1.0.14, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>بد</value>
-  </data>
-  <data name="&gt;&gt;cmbCurrency.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;chkCalc.Type" xml:space="preserve">
-    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>طرف حساب</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 69</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>452, 138</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>بد</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 36</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtBed.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="txtBed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 32</value>
-  </data>
-  <data name="chkCalc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 259</value>
-  </data>
-  <data name="&gt;&gt;cmbCurrency.Name" xml:space="preserve">
-    <value>cmbCurrency</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txtBedehkar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>262, 221</value>
-  </data>
-  <data name="txtRatePrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 32</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Metro.MetroForm, DevComponents.DotNetBar2, Version=14.1.0.14, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>بس</value>
-  </data>
-  <data name="txtRatePrice.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>406, 9</value>
-  </data>
-  <data name="txtEntity.ButtonCustom2.DisplayPosition" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 20</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 20</value>
-  </data>
-  <data name="&gt;&gt;txtBedehkar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtBed.Type" xml:space="preserve">
-    <value>CurMoney.CurMoney, CurMoney, Version=1.0.4649.23025, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="txtRatePrice.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;txtEntity.Name" xml:space="preserve">
-    <value>txtEntity</value>
-  </data>
-  <data name="chkCalc.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="txtBes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>IRANSans, 11pt</value>
-  </data>
-  <data name="txtEntity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>460, 34</value>
-  </data>
-  <data name="lblAccountCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 9</value>
-  </data>
-  <data name="txtRatePrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 163</value>
-  </data>
-  <data name="chkCalc.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;lblAccountCode.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;txtRatePrice.Type" xml:space="preserve">
-    <value>CurMoney.CurMoney, CurMoney, Version=1.0.4649.23025, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="txtRatePrice.Font" type="System.Drawing.Font, System.Drawing">
-    <value>IRANSans, 11pt</value>
-  </data>
-  <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="&gt;&gt;txtBes.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>194, 69</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>488, 330</value>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 20</value>
   </data>
-  <data name="cmbCurrency.Location" type="System.Drawing.Point, System.Drawing">
-    <value>262, 161</value>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>بس</value>
   </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
   </data>
-  <data name="&gt;&gt;txtBestankar.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="txtEntity.ButtonCustom.Tooltip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 138</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>ارز</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="txtBed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>262, 92</value>
-  </data>
-  <data name="txtBes.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtBestankar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 221</value>
-  </data>
-  <data name="&gt;&gt;txtBed.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="lblAccountCode.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="txtBed.Font" type="System.Drawing.Font, System.Drawing">
-    <value>IRANSans, 11pt</value>
-  </data>
-  <data name="&gt;&gt;txtBedehkar.Type" xml:space="preserve">
-    <value>CurMoney.CurMoney, CurMoney, Version=1.0.4649.23025, Culture=neutral, PublicKeyToken=null</value>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 138</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 20</value>
   </data>
-  <data name="cmbCurrency.ItemHeight" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="txtBedehkar.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>452, 69</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>141, 198</value>
-  </data>
-  <data name="txtEntity.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>نرخ مبادله</value>
   </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 198</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label5.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>مبلغ بدهکاری</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 198</value>
+  </data>
+  <data name="label6.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>مبلغ بستانکاری</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbCurrency.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANSans, 11pt</value>
+  </data>
+  <data name="cmbCurrency.ItemHeight" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="cmbCurrency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 161</value>
+  </data>
+  <data name="cmbCurrency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 33</value>
+  </data>
+  <data name="cmbCurrency.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmbCurrency.WatermarkText" xml:space="preserve">
+    <value>ارز را انتخاب نمائبد</value>
+  </data>
+  <data name="&gt;&gt;cmbCurrency.Name" xml:space="preserve">
+    <value>cmbCurrency</value>
+  </data>
+  <data name="&gt;&gt;cmbCurrency.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=14.1.0.34, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;cmbCurrency.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbCurrency.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtEntity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 32</value>
+  </data>
+  <data name="txtEntity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 34</value>
+  </data>
+  <data name="txtEntity.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtEntity.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="txtEntity.WatermarkText" xml:space="preserve">
+    <value>طرف حساب</value>
+  </data>
+  <data name="&gt;&gt;txtEntity.Name" xml:space="preserve">
+    <value>txtEntity</value>
+  </data>
+  <data name="&gt;&gt;txtEntity.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=14.1.0.34, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
+  <data name="&gt;&gt;txtEntity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtEntity.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 9</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>طرف حساب</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblAccountCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAccountCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 9</value>
+  </data>
+  <data name="lblAccountCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 20</value>
+  </data>
+  <data name="lblAccountCode.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblAccountCode.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;lblAccountCode.Name" xml:space="preserve">
+    <value>lblAccountCode</value>
+  </data>
+  <data name="&gt;&gt;lblAccountCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccountCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblAccountCode.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtBed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANSans, 11pt</value>
+  </data>
+  <data name="txtBed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 92</value>
+  </data>
+  <data name="txtBed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 32</value>
+  </data>
+  <data name="txtBed.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtBed.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtBed.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtBed.Name" xml:space="preserve">
+    <value>txtBed</value>
+  </data>
+  <data name="&gt;&gt;txtBed.Type" xml:space="preserve">
+    <value>CurMoney.CurMoney, CurMoney, Version=1.0.4649.23025, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBed.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBed.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtBes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANSans, 11pt</value>
+  </data>
+  <data name="txtBes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 92</value>
+  </data>
+  <data name="txtBes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 32</value>
+  </data>
+  <data name="txtBes.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtBes.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtBes.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtBes.Name" xml:space="preserve">
+    <value>txtBes</value>
+  </data>
+  <data name="&gt;&gt;txtBes.Type" xml:space="preserve">
+    <value>CurMoney.CurMoney, CurMoney, Version=1.0.4649.23025, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBes.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtBedehkar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANSans, 11pt</value>
+  </data>
+  <data name="txtBedehkar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 221</value>
+  </data>
+  <data name="txtBedehkar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 32</value>
+  </data>
+  <data name="txtBedehkar.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtBedehkar.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtBedehkar.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtBedehkar.Name" xml:space="preserve">
+    <value>txtBedehkar</value>
+  </data>
+  <data name="&gt;&gt;txtBedehkar.Type" xml:space="preserve">
+    <value>CurMoney.CurMoney, CurMoney, Version=1.0.4649.23025, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBedehkar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBedehkar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtBestankar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANSans, 11pt</value>
+  </data>
+  <data name="txtBestankar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 221</value>
+  </data>
+  <data name="txtBestankar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 32</value>
+  </data>
+  <data name="txtBestankar.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtBestankar.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtBestankar.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtBestankar.Name" xml:space="preserve">
+    <value>txtBestankar</value>
+  </data>
+  <data name="&gt;&gt;txtBestankar.Type" xml:space="preserve">
+    <value>CurMoney.CurMoney, CurMoney, Version=1.0.4649.23025, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBestankar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBestankar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtRatePrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANSans, 11pt</value>
+  </data>
+  <data name="txtRatePrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 163</value>
+  </data>
+  <data name="txtRatePrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 32</value>
+  </data>
+  <data name="txtRatePrice.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtRatePrice.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtRatePrice.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtRatePrice.Name" xml:space="preserve">
+    <value>txtRatePrice</value>
+  </data>
+  <data name="&gt;&gt;txtRatePrice.Type" xml:space="preserve">
+    <value>CurMoney.CurMoney, CurMoney, Version=1.0.4649.23025, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtRatePrice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtRatePrice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkCalc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCalc.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkCalc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 259</value>
+  </data>
   <data name="chkCalc.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 15</value>
+  </data>
+  <data name="chkCalc.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="chkCalc.Text" xml:space="preserve">
+    <value>محاسبه براساس مبلغ کل دریافتی</value>
+  </data>
+  <data name="&gt;&gt;chkCalc.Name" xml:space="preserve">
+    <value>chkCalc</value>
+  </data>
+  <data name="&gt;&gt;chkCalc.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;chkCalc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkCalc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="simpleButton1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANSans, 9pt</value>
+  </data>
+  <assembly alias="DevExpress.Data.v18.2" name="DevExpress.Data.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="simpleButton1.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v18.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjE4LjIsIFZlcnNpb249MTguMi40
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAJoBAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iU2F2ZSI+DQogIDxwYXRoIGQ9Ik0yNyw0aC0zdjEwSDhWNEg1QzQuNCw0
+        LDQsNC40LDQsNXYyMmMwLDAuNiwwLjQsMSwxLDFoMjJjMC42LDAsMS0wLjQsMS0xVjVDMjgsNC40LDI3
+        LjYsNCwyNyw0eiBNMjQsMjRIOHYtNiAgaDE2VjI0eiBNMTAsNHY4aDEwVjRIMTB6IE0xNCwxMGgtMlY2
+        aDJWMTB6IiBmaWxsPSIjNzI3MjcyIiBjbGFzcz0iQmxhY2siIC8+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 313</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 36</value>
+  </data>
+  <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ku-Arab-IR</value>
-  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>488, 361</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>IRANSans, 9pt</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>اطلاعات سند</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GetDataDocumentPage</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Metro.MetroForm, DevComponents.DotNetBar2, Version=14.1.0.34, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  </data>
 </root>

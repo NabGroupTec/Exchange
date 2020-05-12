@@ -1,6 +1,6 @@
 ﻿namespace Exchange.App.Pages.ReportPage
 {
-    partial class BalanceSheetPage
+    partial class AccountReviewPage
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BalanceSheetPage));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccountReviewPage));
             Janus.Windows.GridEX.GridEXLayout dgv_DesignTimeLayout = new Janus.Windows.GridEX.GridEXLayout();
             this.btnTackReport = new Telerik.WinControls.UI.RadButton();
             this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
@@ -38,8 +38,6 @@
             this.fromDate = new Telerik.WinControls.UI.RadDateTimePicker();
             this.radGroupBox2 = new Telerik.WinControls.UI.RadGroupBox();
             this.dgv = new Janus.Windows.GridEX.GridEX();
-            this.txtProfit = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnTackReport)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radGroupBox1)).BeginInit();
             this.radGroupBox1.SuspendLayout();
@@ -108,29 +106,16 @@
             resources.ApplyResources(this.dgv, "dgv");
             this.dgv.Name = "dgv";
             // 
-            // txtProfit
-            // 
-            resources.ApplyResources(this.txtProfit, "txtProfit");
-            this.txtProfit.Name = "txtProfit";
-            this.txtProfit.ReadOnly = true;
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
-            // 
-            // BalanceSheetPage
+            // AccountReviewPage
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtProfit);
             this.Controls.Add(this.radGroupBox2);
             this.Controls.Add(this.radGroupBox1);
             this.ForeColor = System.Drawing.Color.Black;
             this.KeyPreview = true;
             this.MinimizeBox = false;
-            this.Name = "BalanceSheetPage";
+            this.Name = "AccountReviewPage";
             // 
             // 
             // 
@@ -149,7 +134,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -163,7 +147,5 @@
         private System.Windows.Forms.Label label1;
         private Telerik.WinControls.UI.RadGroupBox radGroupBox2;
         private Janus.Windows.GridEX.GridEX dgv;
-        private System.Windows.Forms.TextBox txtProfit;
-        private System.Windows.Forms.Label label3;
     }
 }
