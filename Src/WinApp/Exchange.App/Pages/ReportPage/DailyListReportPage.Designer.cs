@@ -44,6 +44,8 @@ namespace Exchange.App.Pages.ReportPage
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.clnMandeh = new DevExpress.XtraGrid.Columns.GridColumn();
             this.txtFind = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.btnFind = new DevExpress.XtraEditors.SimpleButton();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView)).BeginInit();
             this.SuspendLayout();
@@ -53,14 +55,12 @@ namespace Exchange.App.Pages.ReportPage
             this.txtDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDate.BackColor = System.Drawing.Color.White;
             this.txtDate.CustomFormat = "####/##/##";
-            this.txtDate.Font = new System.Drawing.Font("IRANSans", 10F);
+            this.txtDate.Font = new System.Drawing.Font("IRANSans", 10.5F);
             this.txtDate.ForeColor = System.Drawing.Color.Black;
-            this.txtDate.Location = new System.Drawing.Point(696, 11);
+            this.txtDate.Location = new System.Drawing.Point(683, 11);
             this.txtDate.Name = "txtDate";
-            this.txtDate.Size = new System.Drawing.Size(139, 31);
+            this.txtDate.Size = new System.Drawing.Size(139, 32);
             this.txtDate.TabIndex = 20;
-            this.txtDate.ValueChanged += new System.EventHandler(this.txtDate_ValueChanged);
-            this.txtDate.Click += new System.EventHandler(this.txtDate_Click);
             // 
             // label2
             // 
@@ -68,7 +68,7 @@ namespace Exchange.App.Pages.ReportPage
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(841, 16);
+            this.label2.Location = new System.Drawing.Point(827, 16);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label2.Size = new System.Drawing.Size(37, 20);
@@ -82,20 +82,23 @@ namespace Exchange.App.Pages.ReportPage
             this.btnPrintReport.Appearance.Options.UseFont = true;
             this.btnPrintReport.Appearance.Options.UseForeColor = true;
             this.btnPrintReport.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnPrintReport.ImageOptions.SvgImage")));
-            this.btnPrintReport.Location = new System.Drawing.Point(12, 9);
+            this.btnPrintReport.Location = new System.Drawing.Point(12, 11);
             this.btnPrintReport.Name = "btnPrintReport";
-            this.btnPrintReport.Size = new System.Drawing.Size(129, 34);
+            this.btnPrintReport.Size = new System.Drawing.Size(120, 32);
             this.btnPrintReport.TabIndex = 24;
             this.btnPrintReport.Text = "چــاپ گـــزارش";
             this.btnPrintReport.Click += new System.EventHandler(this.btnPrintReport_Click);
             // 
             // gridControl
             // 
-            this.gridControl.Location = new System.Drawing.Point(12, 53);
+            this.gridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl.Location = new System.Drawing.Point(0, 87);
             this.gridControl.MainView = this.gridView;
             this.gridControl.Name = "gridControl";
             this.gridControl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.gridControl.Size = new System.Drawing.Size(866, 503);
+            this.gridControl.Size = new System.Drawing.Size(889, 481);
             this.gridControl.TabIndex = 25;
             this.gridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView});
@@ -132,7 +135,7 @@ namespace Exchange.App.Pages.ReportPage
             this.gridColumn1.OptionsColumn.AllowEdit = false;
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
-            this.gridColumn1.Width = 111;
+            this.gridColumn1.Width = 129;
             // 
             // gridColumn2
             // 
@@ -152,7 +155,7 @@ namespace Exchange.App.Pages.ReportPage
             this.gridColumn2.OptionsColumn.AllowEdit = false;
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
-            this.gridColumn2.Width = 80;
+            this.gridColumn2.Width = 70;
             // 
             // gridColumn3
             // 
@@ -172,7 +175,7 @@ namespace Exchange.App.Pages.ReportPage
             this.gridColumn3.OptionsColumn.AllowEdit = false;
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
-            this.gridColumn3.Width = 245;
+            this.gridColumn3.Width = 322;
             // 
             // gridColumn4
             // 
@@ -192,7 +195,7 @@ namespace Exchange.App.Pages.ReportPage
             this.gridColumn4.OptionsColumn.AllowEdit = false;
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
-            this.gridColumn4.Width = 62;
+            this.gridColumn4.Width = 68;
             // 
             // gridColumn5
             // 
@@ -212,7 +215,7 @@ namespace Exchange.App.Pages.ReportPage
             this.gridColumn5.OptionsColumn.AllowEdit = false;
             this.gridColumn5.Visible = true;
             this.gridColumn5.VisibleIndex = 4;
-            this.gridColumn5.Width = 114;
+            this.gridColumn5.Width = 126;
             // 
             // gridColumn6
             // 
@@ -232,7 +235,7 @@ namespace Exchange.App.Pages.ReportPage
             this.gridColumn6.OptionsColumn.AllowEdit = false;
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 5;
-            this.gridColumn6.Width = 114;
+            this.gridColumn6.Width = 133;
             // 
             // clnMandeh
             // 
@@ -249,8 +252,6 @@ namespace Exchange.App.Pages.ReportPage
             this.clnMandeh.Caption = "مانده";
             this.clnMandeh.Name = "clnMandeh";
             this.clnMandeh.OptionsColumn.AllowEdit = false;
-            this.clnMandeh.Visible = true;
-            this.clnMandeh.VisibleIndex = 6;
             this.clnMandeh.Width = 122;
             // 
             // txtFind
@@ -262,22 +263,52 @@ namespace Exchange.App.Pages.ReportPage
             this.txtFind.Border.Class = "TextBoxBorder";
             this.txtFind.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.txtFind.DisabledBackColor = System.Drawing.Color.White;
-            this.txtFind.Font = new System.Drawing.Font("IRANSans", 10F);
+            this.txtFind.Font = new System.Drawing.Font("IRANSans", 11F);
             this.txtFind.ForeColor = System.Drawing.Color.Black;
-            this.txtFind.Location = new System.Drawing.Point(147, 11);
+            this.txtFind.Location = new System.Drawing.Point(12, 49);
             this.txtFind.Name = "txtFind";
             this.txtFind.PreventEnterBeep = true;
             this.txtFind.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtFind.Size = new System.Drawing.Size(515, 30);
+            this.txtFind.Size = new System.Drawing.Size(810, 32);
             this.txtFind.TabIndex = 28;
+            this.txtFind.WatermarkFont = new System.Drawing.Font("IRANSans", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFind.WatermarkImageAlignment = System.Drawing.ContentAlignment.MiddleRight;
             this.txtFind.WatermarkText = "قسمتی از متن را وارد نمائید...";
             this.txtFind.TextChanged += new System.EventHandler(this.txtFind_TextChanged);
+            // 
+            // btnFind
+            // 
+            this.btnFind.Appearance.Font = new System.Drawing.Font("IRANSans", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFind.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.btnFind.Appearance.Options.UseFont = true;
+            this.btnFind.Appearance.Options.UseForeColor = true;
+            this.btnFind.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnFind.ImageOptions.SvgImage")));
+            this.btnFind.Location = new System.Drawing.Point(644, 11);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(38, 32);
+            this.btnFind.TabIndex = 29;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(827, 54);
+            this.label1.Name = "label1";
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label1.Size = new System.Drawing.Size(49, 20);
+            this.label1.TabIndex = 30;
+            this.label1.Text = "جستجو:";
             // 
             // DailyListReportPage
             // 
             this.Appearance.Options.UseFont = true;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(890, 568);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnFind);
             this.Controls.Add(this.txtFind);
             this.Controls.Add(this.gridControl);
             this.Controls.Add(this.btnPrintReport);
@@ -317,5 +348,7 @@ namespace Exchange.App.Pages.ReportPage
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraGrid.Columns.GridColumn clnMandeh;
         private DevComponents.DotNetBar.Controls.TextBoxX txtFind;
+        private SimpleButton btnFind;
+        private System.Windows.Forms.Label label1;
     }
 }

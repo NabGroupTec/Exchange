@@ -20,17 +20,17 @@ namespace Exchange.App.DataSets {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("DataSet_AccountSide")]
+    [global::System.Xml.Serialization.XmlRootAttribute("DataSet_DailyReport")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class DataSet_AccountSide : global::System.Data.DataSet {
+    public partial class DataSet_DailyReport : global::System.Data.DataSet {
         
-        private AccountSideDataTable tableAccountSide;
+        private DailyDataTable tableDaily;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public DataSet_AccountSide() {
+        public DataSet_DailyReport() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -41,7 +41,7 @@ namespace Exchange.App.DataSets {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        protected DataSet_AccountSide(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected DataSet_DailyReport(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -54,8 +54,8 @@ namespace Exchange.App.DataSets {
             if ((this.DetermineSchemaSerializationMode(info, context) == global::System.Data.SchemaSerializationMode.IncludeSchema)) {
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXmlSchema(new global::System.Xml.XmlTextReader(new global::System.IO.StringReader(strSchema)));
-                if ((ds.Tables["AccountSide"] != null)) {
-                    base.Tables.Add(new AccountSideDataTable(ds.Tables["AccountSide"]));
+                if ((ds.Tables["Daily"] != null)) {
+                    base.Tables.Add(new DailyDataTable(ds.Tables["Daily"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -79,9 +79,9 @@ namespace Exchange.App.DataSets {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public AccountSideDataTable AccountSide {
+        public DailyDataTable Daily {
             get {
-                return this.tableAccountSide;
+                return this.tableDaily;
             }
         }
         
@@ -127,7 +127,7 @@ namespace Exchange.App.DataSets {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            DataSet_AccountSide cln = ((DataSet_AccountSide)(base.Clone()));
+            DataSet_DailyReport cln = ((DataSet_DailyReport)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -152,8 +152,8 @@ namespace Exchange.App.DataSets {
                 this.Reset();
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXml(reader);
-                if ((ds.Tables["AccountSide"] != null)) {
-                    base.Tables.Add(new AccountSideDataTable(ds.Tables["AccountSide"]));
+                if ((ds.Tables["Daily"] != null)) {
+                    base.Tables.Add(new DailyDataTable(ds.Tables["Daily"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -188,10 +188,10 @@ namespace Exchange.App.DataSets {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         internal void InitVars(bool initTable) {
-            this.tableAccountSide = ((AccountSideDataTable)(base.Tables["AccountSide"]));
+            this.tableDaily = ((DailyDataTable)(base.Tables["Daily"]));
             if ((initTable == true)) {
-                if ((this.tableAccountSide != null)) {
-                    this.tableAccountSide.InitVars();
+                if ((this.tableDaily != null)) {
+                    this.tableDaily.InitVars();
                 }
             }
         }
@@ -199,18 +199,18 @@ namespace Exchange.App.DataSets {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "DataSet_AccountSide";
+            this.DataSetName = "DataSet_DailyReport";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/DataSet_AccountSide.xsd";
+            this.Namespace = "http://tempuri.org/DataSet_DailyReport.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
-            this.tableAccountSide = new AccountSideDataTable();
-            base.Tables.Add(this.tableAccountSide);
+            this.tableDaily = new DailyDataTable();
+            base.Tables.Add(this.tableDaily);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        private bool ShouldSerializeAccountSide() {
+        private bool ShouldSerializeDaily() {
             return false;
         }
         
@@ -225,7 +225,7 @@ namespace Exchange.App.DataSets {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            DataSet_AccountSide ds = new DataSet_AccountSide();
+            DataSet_DailyReport ds = new DataSet_DailyReport();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -270,39 +270,31 @@ namespace Exchange.App.DataSets {
         }
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public delegate void AccountSideRowChangeEventHandler(object sender, AccountSideRowChangeEvent e);
+        public delegate void DailyRowChangeEventHandler(object sender, DailyRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class AccountSideDataTable : global::System.Data.TypedTableBase<AccountSideRow> {
+        public partial class DailyDataTable : global::System.Data.TypedTableBase<DailyRow> {
+            
+            private global::System.Data.DataColumn columnId;
             
             private global::System.Data.DataColumn columnManualDate;
             
-            private global::System.Data.DataColumn columnDocId;
-            
             private global::System.Data.DataColumn columnComment;
             
-            private global::System.Data.DataColumn columnCurrency;
+            private global::System.Data.DataColumn columnName;
             
             private global::System.Data.DataColumn columnBedPrice;
             
             private global::System.Data.DataColumn columnBesPrice;
             
-            private global::System.Data.DataColumn columnT;
-            
-            private global::System.Data.DataColumn columnMandeh;
-            
-            private global::System.Data.DataColumn columnMaster;
-            
-            private global::System.Data.DataColumn columnRatePrice;
-            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public AccountSideDataTable() {
-                this.TableName = "AccountSide";
+            public DailyDataTable() {
+                this.TableName = "Daily";
                 this.BeginInit();
                 this.InitClass();
                 this.EndInit();
@@ -310,7 +302,7 @@ namespace Exchange.App.DataSets {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            internal AccountSideDataTable(global::System.Data.DataTable table) {
+            internal DailyDataTable(global::System.Data.DataTable table) {
                 this.TableName = table.TableName;
                 if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
                     this.CaseSensitive = table.CaseSensitive;
@@ -327,9 +319,17 @@ namespace Exchange.App.DataSets {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            protected AccountSideDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected DailyDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn IdColumn {
+                get {
+                    return this.columnId;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -337,14 +337,6 @@ namespace Exchange.App.DataSets {
             public global::System.Data.DataColumn ManualDateColumn {
                 get {
                     return this.columnManualDate;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn DocIdColumn {
-                get {
-                    return this.columnDocId;
                 }
             }
             
@@ -358,9 +350,9 @@ namespace Exchange.App.DataSets {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn CurrencyColumn {
+            public global::System.Data.DataColumn NameColumn {
                 get {
-                    return this.columnCurrency;
+                    return this.columnName;
                 }
             }
             
@@ -382,38 +374,6 @@ namespace Exchange.App.DataSets {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn TColumn {
-                get {
-                    return this.columnT;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn MandehColumn {
-                get {
-                    return this.columnMandeh;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn MasterColumn {
-                get {
-                    return this.columnMaster;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn RatePriceColumn {
-                get {
-                    return this.columnRatePrice;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -423,54 +383,50 @@ namespace Exchange.App.DataSets {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public AccountSideRow this[int index] {
+            public DailyRow this[int index] {
                 get {
-                    return ((AccountSideRow)(this.Rows[index]));
+                    return ((DailyRow)(this.Rows[index]));
                 }
             }
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event AccountSideRowChangeEventHandler AccountSideRowChanging;
+            public event DailyRowChangeEventHandler DailyRowChanging;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event AccountSideRowChangeEventHandler AccountSideRowChanged;
+            public event DailyRowChangeEventHandler DailyRowChanged;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event AccountSideRowChangeEventHandler AccountSideRowDeleting;
+            public event DailyRowChangeEventHandler DailyRowDeleting;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event AccountSideRowChangeEventHandler AccountSideRowDeleted;
+            public event DailyRowChangeEventHandler DailyRowDeleted;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void AddAccountSideRow(AccountSideRow row) {
+            public void AddDailyRow(DailyRow row) {
                 this.Rows.Add(row);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public AccountSideRow AddAccountSideRow(string ManualDate, string DocId, string Comment, string Currency, string BedPrice, string BesPrice, string T, string Mandeh, string Master, string RatePrice) {
-                AccountSideRow rowAccountSideRow = ((AccountSideRow)(this.NewRow()));
+            public DailyRow AddDailyRow(string Id, string ManualDate, string Comment, string Name, string BedPrice, string BesPrice) {
+                DailyRow rowDailyRow = ((DailyRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
+                        Id,
                         ManualDate,
-                        DocId,
                         Comment,
-                        Currency,
+                        Name,
                         BedPrice,
-                        BesPrice,
-                        T,
-                        Mandeh,
-                        Master,
-                        RatePrice};
-                rowAccountSideRow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowAccountSideRow);
-                return rowAccountSideRow;
+                        BesPrice};
+                rowDailyRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowDailyRow);
+                return rowDailyRow;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public override global::System.Data.DataTable Clone() {
-                AccountSideDataTable cln = ((AccountSideDataTable)(base.Clone()));
+                DailyDataTable cln = ((DailyDataTable)(base.Clone()));
                 cln.InitVars();
                 return cln;
             }
@@ -478,73 +434,61 @@ namespace Exchange.App.DataSets {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
-                return new AccountSideDataTable();
+                return new DailyDataTable();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
+                this.columnId = base.Columns["Id"];
                 this.columnManualDate = base.Columns["ManualDate"];
-                this.columnDocId = base.Columns["DocId"];
                 this.columnComment = base.Columns["Comment"];
-                this.columnCurrency = base.Columns["Currency"];
+                this.columnName = base.Columns["Name"];
                 this.columnBedPrice = base.Columns["BedPrice"];
                 this.columnBesPrice = base.Columns["BesPrice"];
-                this.columnT = base.Columns["T"];
-                this.columnMandeh = base.Columns["Mandeh"];
-                this.columnMaster = base.Columns["Master"];
-                this.columnRatePrice = base.Columns["RatePrice"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             private void InitClass() {
+                this.columnId = new global::System.Data.DataColumn("Id", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnId);
                 this.columnManualDate = new global::System.Data.DataColumn("ManualDate", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnManualDate);
-                this.columnDocId = new global::System.Data.DataColumn("DocId", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnDocId);
                 this.columnComment = new global::System.Data.DataColumn("Comment", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnComment);
-                this.columnCurrency = new global::System.Data.DataColumn("Currency", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnCurrency);
+                this.columnName = new global::System.Data.DataColumn("Name", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnName);
                 this.columnBedPrice = new global::System.Data.DataColumn("BedPrice", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnBedPrice);
                 this.columnBesPrice = new global::System.Data.DataColumn("BesPrice", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnBesPrice);
-                this.columnT = new global::System.Data.DataColumn("T", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnT);
-                this.columnMandeh = new global::System.Data.DataColumn("Mandeh", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnMandeh);
-                this.columnMaster = new global::System.Data.DataColumn("Master", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnMaster);
-                this.columnRatePrice = new global::System.Data.DataColumn("RatePrice", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnRatePrice);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public AccountSideRow NewAccountSideRow() {
-                return ((AccountSideRow)(this.NewRow()));
+            public DailyRow NewDailyRow() {
+                return ((DailyRow)(this.NewRow()));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new AccountSideRow(builder);
+                return new DailyRow(builder);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Type GetRowType() {
-                return typeof(AccountSideRow);
+                return typeof(DailyRow);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanged(e);
-                if ((this.AccountSideRowChanged != null)) {
-                    this.AccountSideRowChanged(this, new AccountSideRowChangeEvent(((AccountSideRow)(e.Row)), e.Action));
+                if ((this.DailyRowChanged != null)) {
+                    this.DailyRowChanged(this, new DailyRowChangeEvent(((DailyRow)(e.Row)), e.Action));
                 }
             }
             
@@ -552,8 +496,8 @@ namespace Exchange.App.DataSets {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanging(e);
-                if ((this.AccountSideRowChanging != null)) {
-                    this.AccountSideRowChanging(this, new AccountSideRowChangeEvent(((AccountSideRow)(e.Row)), e.Action));
+                if ((this.DailyRowChanging != null)) {
+                    this.DailyRowChanging(this, new DailyRowChangeEvent(((DailyRow)(e.Row)), e.Action));
                 }
             }
             
@@ -561,8 +505,8 @@ namespace Exchange.App.DataSets {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleted(e);
-                if ((this.AccountSideRowDeleted != null)) {
-                    this.AccountSideRowDeleted(this, new AccountSideRowChangeEvent(((AccountSideRow)(e.Row)), e.Action));
+                if ((this.DailyRowDeleted != null)) {
+                    this.DailyRowDeleted(this, new DailyRowChangeEvent(((DailyRow)(e.Row)), e.Action));
                 }
             }
             
@@ -570,14 +514,14 @@ namespace Exchange.App.DataSets {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleting(e);
-                if ((this.AccountSideRowDeleting != null)) {
-                    this.AccountSideRowDeleting(this, new AccountSideRowChangeEvent(((AccountSideRow)(e.Row)), e.Action));
+                if ((this.DailyRowDeleting != null)) {
+                    this.DailyRowDeleting(this, new DailyRowChangeEvent(((DailyRow)(e.Row)), e.Action));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void RemoveAccountSideRow(AccountSideRow row) {
+            public void RemoveDailyRow(DailyRow row) {
                 this.Rows.Remove(row);
             }
             
@@ -586,7 +530,7 @@ namespace Exchange.App.DataSets {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DataSet_AccountSide ds = new DataSet_AccountSide();
+                DataSet_DailyReport ds = new DataSet_DailyReport();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -604,7 +548,7 @@ namespace Exchange.App.DataSets {
                 type.Attributes.Add(attribute1);
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "AccountSideDataTable";
+                attribute2.FixedValue = "DailyDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -648,15 +592,31 @@ namespace Exchange.App.DataSets {
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
-        public partial class AccountSideRow : global::System.Data.DataRow {
+        public partial class DailyRow : global::System.Data.DataRow {
             
-            private AccountSideDataTable tableAccountSide;
+            private DailyDataTable tableDaily;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            internal AccountSideRow(global::System.Data.DataRowBuilder rb) : 
+            internal DailyRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
-                this.tableAccountSide = ((AccountSideDataTable)(this.Table));
+                this.tableDaily = ((DailyDataTable)(this.Table));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string Id {
+                get {
+                    try {
+                        return ((string)(this[this.tableDaily.IdColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Id\' in table \'Daily\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableDaily.IdColumn] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -664,30 +624,14 @@ namespace Exchange.App.DataSets {
             public string ManualDate {
                 get {
                     try {
-                        return ((string)(this[this.tableAccountSide.ManualDateColumn]));
+                        return ((string)(this[this.tableDaily.ManualDateColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'ManualDate\' in table \'AccountSide\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'ManualDate\' in table \'Daily\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableAccountSide.ManualDateColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string DocId {
-                get {
-                    try {
-                        return ((string)(this[this.tableAccountSide.DocIdColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'DocId\' in table \'AccountSide\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableAccountSide.DocIdColumn] = value;
+                    this[this.tableDaily.ManualDateColumn] = value;
                 }
             }
             
@@ -696,30 +640,30 @@ namespace Exchange.App.DataSets {
             public string Comment {
                 get {
                     try {
-                        return ((string)(this[this.tableAccountSide.CommentColumn]));
+                        return ((string)(this[this.tableDaily.CommentColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Comment\' in table \'AccountSide\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Comment\' in table \'Daily\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableAccountSide.CommentColumn] = value;
+                    this[this.tableDaily.CommentColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string Currency {
+            public string Name {
                 get {
                     try {
-                        return ((string)(this[this.tableAccountSide.CurrencyColumn]));
+                        return ((string)(this[this.tableDaily.NameColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Currency\' in table \'AccountSide\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Name\' in table \'Daily\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableAccountSide.CurrencyColumn] = value;
+                    this[this.tableDaily.NameColumn] = value;
                 }
             }
             
@@ -728,14 +672,14 @@ namespace Exchange.App.DataSets {
             public string BedPrice {
                 get {
                     try {
-                        return ((string)(this[this.tableAccountSide.BedPriceColumn]));
+                        return ((string)(this[this.tableDaily.BedPriceColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'BedPrice\' in table \'AccountSide\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'BedPrice\' in table \'Daily\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableAccountSide.BedPriceColumn] = value;
+                    this[this.tableDaily.BedPriceColumn] = value;
                 }
             }
             
@@ -744,199 +688,87 @@ namespace Exchange.App.DataSets {
             public string BesPrice {
                 get {
                     try {
-                        return ((string)(this[this.tableAccountSide.BesPriceColumn]));
+                        return ((string)(this[this.tableDaily.BesPriceColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'BesPrice\' in table \'AccountSide\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'BesPrice\' in table \'Daily\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableAccountSide.BesPriceColumn] = value;
+                    this[this.tableDaily.BesPriceColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string T {
-                get {
-                    try {
-                        return ((string)(this[this.tableAccountSide.TColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'T\' in table \'AccountSide\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableAccountSide.TColumn] = value;
-                }
+            public bool IsIdNull() {
+                return this.IsNull(this.tableDaily.IdColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string Mandeh {
-                get {
-                    try {
-                        return ((string)(this[this.tableAccountSide.MandehColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Mandeh\' in table \'AccountSide\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableAccountSide.MandehColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string Master {
-                get {
-                    try {
-                        return ((string)(this[this.tableAccountSide.MasterColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Master\' in table \'AccountSide\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableAccountSide.MasterColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string RatePrice {
-                get {
-                    try {
-                        return ((string)(this[this.tableAccountSide.RatePriceColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'RatePrice\' in table \'AccountSide\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableAccountSide.RatePriceColumn] = value;
-                }
+            public void SetIdNull() {
+                this[this.tableDaily.IdColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsManualDateNull() {
-                return this.IsNull(this.tableAccountSide.ManualDateColumn);
+                return this.IsNull(this.tableDaily.ManualDateColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetManualDateNull() {
-                this[this.tableAccountSide.ManualDateColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsDocIdNull() {
-                return this.IsNull(this.tableAccountSide.DocIdColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetDocIdNull() {
-                this[this.tableAccountSide.DocIdColumn] = global::System.Convert.DBNull;
+                this[this.tableDaily.ManualDateColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsCommentNull() {
-                return this.IsNull(this.tableAccountSide.CommentColumn);
+                return this.IsNull(this.tableDaily.CommentColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetCommentNull() {
-                this[this.tableAccountSide.CommentColumn] = global::System.Convert.DBNull;
+                this[this.tableDaily.CommentColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsCurrencyNull() {
-                return this.IsNull(this.tableAccountSide.CurrencyColumn);
+            public bool IsNameNull() {
+                return this.IsNull(this.tableDaily.NameColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetCurrencyNull() {
-                this[this.tableAccountSide.CurrencyColumn] = global::System.Convert.DBNull;
+            public void SetNameNull() {
+                this[this.tableDaily.NameColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsBedPriceNull() {
-                return this.IsNull(this.tableAccountSide.BedPriceColumn);
+                return this.IsNull(this.tableDaily.BedPriceColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetBedPriceNull() {
-                this[this.tableAccountSide.BedPriceColumn] = global::System.Convert.DBNull;
+                this[this.tableDaily.BedPriceColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsBesPriceNull() {
-                return this.IsNull(this.tableAccountSide.BesPriceColumn);
+                return this.IsNull(this.tableDaily.BesPriceColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetBesPriceNull() {
-                this[this.tableAccountSide.BesPriceColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsTNull() {
-                return this.IsNull(this.tableAccountSide.TColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetTNull() {
-                this[this.tableAccountSide.TColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsMandehNull() {
-                return this.IsNull(this.tableAccountSide.MandehColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetMandehNull() {
-                this[this.tableAccountSide.MandehColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsMasterNull() {
-                return this.IsNull(this.tableAccountSide.MasterColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetMasterNull() {
-                this[this.tableAccountSide.MasterColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsRatePriceNull() {
-                return this.IsNull(this.tableAccountSide.RatePriceColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetRatePriceNull() {
-                this[this.tableAccountSide.RatePriceColumn] = global::System.Convert.DBNull;
+                this[this.tableDaily.BesPriceColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -944,22 +776,22 @@ namespace Exchange.App.DataSets {
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public class AccountSideRowChangeEvent : global::System.EventArgs {
+        public class DailyRowChangeEvent : global::System.EventArgs {
             
-            private AccountSideRow eventRow;
+            private DailyRow eventRow;
             
             private global::System.Data.DataRowAction eventAction;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public AccountSideRowChangeEvent(AccountSideRow row, global::System.Data.DataRowAction action) {
+            public DailyRowChangeEvent(DailyRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public AccountSideRow Row {
+            public DailyRow Row {
                 get {
                     return this.eventRow;
                 }

@@ -158,6 +158,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet_AccountSide.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\DataSet_DailyReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_DailyReport.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSets\DataSet_Language.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -243,12 +248,6 @@
     </Compile>
     <Compile Include="Pages\Operation\DefinitionsListPage.Designer.cs">
       <DependentUpon>DefinitionsListPage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Operation\DocumentListDetailsPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pages\Operation\DocumentListDetailsPage.Designer.cs">
-      <DependentUpon>DocumentListDetailsPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\Operation\DocumentListPage.cs">
       <SubType>Form</SubType>
@@ -454,6 +453,12 @@
     <Compile Include="Pages\ReportPage\BalanceSheetPage.Designer.cs">
       <DependentUpon>BalanceSheetPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ReportPage\BalanceSheetsPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\ReportPage\BalanceSheetsPage.Designer.cs">
+      <DependentUpon>BalanceSheetsPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ReportPage\DailyListReportPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -594,9 +599,6 @@
     <EmbeddedResource Include="Pages\Operation\DefinitionsListPage.resx">
       <DependentUpon>DefinitionsListPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\Operation\DocumentListDetailsPage.resx">
-      <DependentUpon>DocumentListDetailsPage.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Pages\Operation\DocumentListPage.ku-Arab-IR.resx">
       <DependentUpon>DocumentListPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -718,6 +720,9 @@
     <EmbeddedResource Include="Pages\ReportPage\BalanceSheetPage.resx">
       <DependentUpon>BalanceSheetPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ReportPage\BalanceSheetsPage.resx">
+      <DependentUpon>BalanceSheetsPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\ReportPage\DailyListReportPage.resx">
       <DependentUpon>DailyListReportPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -730,6 +735,7 @@
     <EmbeddedResource Include="Pages\Report\AccountSideReport.rdlc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Report\DailyReport.rdlc" />
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -751,6 +757,17 @@
     </None>
     <None Include="DataSets\DataSet_AccountSide.xss">
       <DependentUpon>DataSet_AccountSide.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSet_DailyReport.xsc">
+      <DependentUpon>DataSet_DailyReport.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSet_DailyReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_DailyReport.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSet_DailyReport.xss">
+      <DependentUpon>DataSet_DailyReport.xsd</DependentUpon>
     </None>
     <None Include="DataSets\DataSet_Language.xsc">
       <DependentUpon>DataSet_Language.xsd</DependentUpon>

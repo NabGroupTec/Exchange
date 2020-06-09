@@ -118,9 +118,10 @@ namespace Exchange.App.Pages.Operation
         private void txtBestankar_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
+                btnOk_Click(null,null);
                 //if (_bess != 0)
                 //    txtRatePrice.Text = _bess.ToString(CultureInfo.InvariantCulture);
-                SendKeys.Send("{Tab}");
+                //SendKeys.Send("{Tab}");
         }
 
 
@@ -211,6 +212,12 @@ namespace Exchange.App.Pages.Operation
         private void chkCalc_CheckedChanged(object sender, EventArgs e)
         {
             txtRatePrice.ReadOnly = true;
+        }
+
+        private void txtBuyPrice_KeyDown(object sender, KeyEventArgs e)
+        {
+             if (e.KeyCode == Keys.Enter)
+                SendKeys.Send("{Tab}");
         }
     }
 }

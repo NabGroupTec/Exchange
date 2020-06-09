@@ -45,7 +45,7 @@
             // lblAccountCode
             // 
             resources.ApplyResources(this.lblAccountCode, "lblAccountCode");
-            this.lblAccountCode.BackColor = System.Drawing.Color.White;
+            this.lblAccountCode.BackColor = System.Drawing.Color.Transparent;
             this.lblAccountCode.ForeColor = System.Drawing.Color.Black;
             this.lblAccountCode.Name = "lblAccountCode";
             // 
@@ -59,7 +59,7 @@
             this.txtEntity.Border.Class = "TextBoxBorder";
             this.txtEntity.Border.CornerDiameter = 6;
             this.txtEntity.Border.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.txtEntity.DisabledBackColor = System.Drawing.Color.White;
+            this.txtEntity.DisabledBackColor = System.Drawing.Color.Transparent;
             this.txtEntity.ForeColor = System.Drawing.Color.Black;
             this.txtEntity.Name = "txtEntity";
             this.txtEntity.PreventEnterBeep = true;
@@ -70,7 +70,7 @@
             // label7
             // 
             resources.ApplyResources(this.label7, "label7");
-            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Name = "label7";
             // 
@@ -89,13 +89,14 @@
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
-            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Name = "label3";
             // 
             // btnPrintReport
             // 
             this.btnPrintReport.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnPrintReport.BackColor = System.Drawing.Color.Transparent;
             this.btnPrintReport.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnPrintReport.ImagePosition = DevComponents.DotNetBar.eImagePosition.Right;
             resources.ApplyResources(this.btnPrintReport, "btnPrintReport");
@@ -109,6 +110,7 @@
             // btnExpoerExcel
             // 
             this.btnExpoerExcel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnExpoerExcel.BackColor = System.Drawing.Color.Transparent;
             this.btnExpoerExcel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnExpoerExcel.Image = global::Exchange.App.Properties.Resources.ExportExelNew;
             this.btnExpoerExcel.ImageFixedSize = new System.Drawing.Size(42, 42);
@@ -131,12 +133,13 @@
             // lblStatus
             // 
             resources.ApplyResources(this.lblStatus, "lblStatus");
-            this.lblStatus.BackColor = System.Drawing.Color.White;
+            this.lblStatus.BackColor = System.Drawing.Color.Transparent;
             this.lblStatus.ForeColor = System.Drawing.Color.Black;
             this.lblStatus.Name = "lblStatus";
             // 
             // AccountSideReportPage
             // 
+            this.Appearance.Options.UseFont = true;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
             this.Controls.Add(this.lblStatus);

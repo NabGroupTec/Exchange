@@ -48,6 +48,7 @@ namespace Exchange.App.Pages.Operation
             this.txtRatePrice = new CurMoney.CurMoney();
             this.chkCalc = new MetroFramework.Controls.MetroCheckBox();
             this.btnOk = new DevExpress.XtraEditors.SimpleButton();
+            this.txtBuyPrice = new CurMoney.CurMoney();
             this.SuspendLayout();
             // 
             // label1
@@ -200,17 +201,33 @@ namespace Exchange.App.Pages.Operation
             // 
             // btnOk
             // 
-            this.btnOk.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("simpleButton1.Appearance.Font")));
+            this.btnOk.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("btnOk.Appearance.Font")));
+            this.btnOk.Appearance.ForeColor = System.Drawing.Color.Black;
             this.btnOk.Appearance.Options.UseFont = true;
-            this.btnOk.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
+            this.btnOk.Appearance.Options.UseForeColor = true;
+            this.btnOk.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnOk.ImageOptions.SvgImage")));
             resources.ApplyResources(this.btnOk, "btnOk");
             this.btnOk.Name = "btnOk";
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
+            // 
+            // txtBuyPrice
+            // 
+            this.txtBuyPrice.BackColor = System.Drawing.Color.White;
+            this.txtBuyPrice.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtBuyPrice.ForeColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.txtBuyPrice, "txtBuyPrice");
+            this.txtBuyPrice.Name = "txtBuyPrice";
+            this.txtBuyPrice.Precision = CurMoney.CurMoney.Precision_List.Four;
+            this.txtBuyPrice.ReadOnly = true;
+            this.txtBuyPrice.Symbol = CurMoney.CurMoney.Symbol_List.Dot;
+            this.txtBuyPrice.TabStop = false;
+            this.txtBuyPrice.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBuyPrice_KeyDown);
             // 
             // GetDataDocumentPage
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.txtBuyPrice);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.chkCalc);
             this.Controls.Add(this.txtRatePrice);
@@ -262,5 +279,6 @@ namespace Exchange.App.Pages.Operation
         private CurMoney.CurMoney txtRatePrice;
         private MetroFramework.Controls.MetroCheckBox chkCalc;
         private SimpleButton btnOk;
+        private CurMoney.CurMoney txtBuyPrice;
     }
 }

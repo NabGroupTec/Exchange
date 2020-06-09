@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using DevExpress.Data.Filtering.Helpers;
+using DevExpress.XtraEditors;
 using Exchange.App.Infrastracture;
 using Janus.Windows.GridEX;
 using Telerik.Examples.WinControls.Editors.DateTimePicker.FirstLook;

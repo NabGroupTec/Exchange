@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_DailyReport" targetNamespace="http://tempuri.org/DataSet_DailyReport.xsd" xmlns:mstns="http://tempuri.org/DataSet_DailyReport.xsd" xmlns="http://tempuri.org/DataSet_DailyReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_DailyReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_DailyReport" msprop:Generator_UserDSName="DataSet_DailyReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Daily" msprop:Generator_TableClassName="DailyDataTable" msprop:Generator_TableVarName="tableDaily" msprop:Generator_TablePropName="Daily" msprop:Generator_RowDeletingName="DailyRowDeleting" msprop:Generator_RowChangingName="DailyRowChanging" msprop:Generator_RowEvHandlerName="DailyRowChangeEventHandler" msprop:Generator_RowDeletedName="DailyRowDeleted" msprop:Generator_UserTableName="Daily" msprop:Generator_RowChangedName="DailyRowChanged" msprop:Generator_RowEvArgName="DailyRowChangeEvent" msprop:Generator_RowClassName="DailyRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="ManualDate" msprop:Generator_ColumnVarNameInTable="columnManualDate" msprop:Generator_ColumnPropNameInRow="ManualDate" msprop:Generator_ColumnPropNameInTable="ManualDateColumn" msprop:Generator_UserColumnName="ManualDate" type="xs:string" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" msprop:Generator_UserColumnName="Comment" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="BedPrice" msprop:Generator_ColumnVarNameInTable="columnBedPrice" msprop:Generator_ColumnPropNameInRow="BedPrice" msprop:Generator_ColumnPropNameInTable="BedPriceColumn" msprop:Generator_UserColumnName="BedPrice" type="xs:string" minOccurs="0" />
+              <xs:element name="BesPrice" msprop:Generator_ColumnVarNameInTable="columnBesPrice" msprop:Generator_ColumnPropNameInRow="BesPrice" msprop:Generator_ColumnPropNameInTable="BesPriceColumn" msprop:Generator_UserColumnName="BesPrice" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

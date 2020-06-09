@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Data;
 using System.Windows.Forms;
-using DevComponents.DotNetBar.Metro;
 using DevExpress.XtraEditors;
 using Exchange.App.Infrastracture;
 using Exchange.App.Properties;
@@ -23,13 +22,11 @@ namespace Exchange.App.Pages.ReportPage
 
         private void GetReport()
         {
+            var sql =
+                "SELECT * FROM VoucherHeaders H JOIN VoucherLines L ON H.Id=L.VoucherHeaderId JOIN Currencies c ON L.CurrencyId=C.Id WHERE ManualDate='" +
+                txtDate.Text.Replace("/", "-") + "'";
             using (new UnitOfWork())
             {
-                //var currencyValue = DateTime.Parse(txtDate.Text);
-                var sql =
-                    "SELECT * FROM VoucherHeaders H JOIN VoucherLines L ON H.Id=L.VoucherHeaderId JOIN Currencies c ON L.CurrencyId=C.Id WHERE ManualDate='" +
-                    txtDate.Text.Replace("-", "/") + "'";
-
                 var dt = UtilityClass.GetData(sql);
                 _dv = dt.DefaultView;
 
@@ -49,23 +46,23 @@ namespace Exchange.App.Pages.ReportPage
             if (e.KeyCode == Keys.Escape)
                 Close();
         }
-
-        private void txtDate_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void txtDate_ValueChanged(object sender, EventArgs e)
-        {
-            GetReport();
-        }
         private void btnPrintReport_Click(object sender, EventArgs e)
         {
+            var reportViewer = new ReportViewerPage();
+            reportViewer.PrintName = "DAILY";
+            reportViewer.DataTable = _dv.Table;
 
+            reportViewer.ShowDialog();
         }
         private void txtFind_TextChanged(object sender, EventArgs e)
         {
-var query = " Comment LIKE '%" + txtFind.Text + "%'";
+            var query = " Comment LIKE '%" + txtFind.Text + "%'";
             _dv.RowFilter = query;
+        }
+
+        private void btnFind_Click(object sender, EventArgs e)
+        {
+            GetReport();
         }
     }
 }

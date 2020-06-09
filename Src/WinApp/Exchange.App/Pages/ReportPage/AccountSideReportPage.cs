@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Windows.Forms;
 using DevComponents.DotNetBar.Metro;
+using DevExpress.XtraEditors;
 using Exchange.App.Infrastracture;
 using Exchange.App.Pages.Operation;
 using Exchange.Domain.DataAccess;
@@ -12,7 +13,7 @@ using Janus.Windows.GridEX;
 
 namespace Exchange.App.Pages.ReportPage
 {
-    public partial class AccountSideReportPage : MetroForm
+    public partial class AccountSideReportPage : XtraForm
     {
         private DataTable _dataTable = new DataTable();
 
@@ -56,12 +57,12 @@ namespace Exchange.App.Pages.ReportPage
                 string sql;
 
                 if (currencyValue != null && (int) cmbCurrency.SelectedValue != 0)
-                    sql ="SELECT h.Id DocId,*,Mandeh=0.0,T=N' ',Master=0.0,c.Name Currency  FROM VoucherHeaders H JOIN VoucherLines L ON H.Id=L.VoucherHeaderId JOIN Currencies c ON L.CurrencyId=C.Id WHERE L.EntityCode=" +
+                    sql = "SELECT h.Id DocId,*,Mandeh=0.0,T=N' ',Master=0.0,c.Name Currency,RatePrice  FROM VoucherHeaders H JOIN VoucherLines L ON H.Id=L.VoucherHeaderId JOIN Currencies c ON L.CurrencyId=C.Id WHERE L.EntityCode=" +
                           lblAccountCode.Text + " AND L.CurrencyId=" + currencyValue;
                 else
-                    sql = @"SELECT h.Id DocId,h.ManualDate,h.Comment,c.Name Currency,l.BedPrice,l.BesPrice,Mandeh=0.0,T=N' ',Master=0.0 ,l.BedTMIN,l.BesTMIN 
+                    sql = @"SELECT h.Id DocId,h.ManualDate,h.Comment,c.Name Currency,l.BedPrice,l.BesPrice,Mandeh=0.0,T=N' ',Master=0.0 ,l.BedTMIN,l.BesTMIN ,RatePrice
                 FROM VoucherHeaders H JOIN VoucherLines L ON H.Id = L.VoucherHeaderId
-                JOIN Currencies c ON L.CurrencyId = C.Id";
+                JOIN Currencies c ON L.CurrencyId = C.Id WHERE L.EntityCode="+lblAccountCode.Text ;
 
                 var dt = UtilityClass.GetData(sql);
                 SetBedBesTableMoein(dt);

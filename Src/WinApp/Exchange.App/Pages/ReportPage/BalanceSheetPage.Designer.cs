@@ -68,6 +68,10 @@
             this.radGroupBox1.Controls.Add(this.btnTackReport);
             this.radGroupBox1.Name = "radGroupBox1";
             // 
+            // 
+            // 
+            this.radGroupBox1.RootElement.BorderHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(239)))));
+            // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");

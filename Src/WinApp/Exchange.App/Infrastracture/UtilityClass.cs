@@ -31,6 +31,7 @@ namespace Exchange.App.Infrastracture
         public static decimal BesTMN;
         public static string AccCode;
         public static string AccName;
+        public static decimal BuyPrice;
         public static List<string> CurrentUserPermissions = new List<string>();
         public static string ConnectionString { get; set; }
         public static int UserId { get; set; }

@@ -148,7 +148,7 @@
     <value>Top, Right</value>
   </data>
   <data name="txtEntity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>480, 32</value>
+    <value>480, 37</value>
   </data>
   <data name="txtEntity.Size" type="System.Drawing.Size, System.Drawing">
     <value>460, 34</value>
@@ -211,7 +211,7 @@
     <value>28</value>
   </data>
   <data name="cmbCurrency.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 32</value>
+    <value>264, 37</value>
   </data>
   <data name="cmbCurrency.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 34</value>
@@ -313,16 +313,16 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="dgvEx_DesignTimeLayout.LayoutString" xml:space="preserve">
-    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ManualDate"&gt;&lt;Caption&gt;تاریخ&lt;/Caption&gt;&lt;DataMember&gt;ManualDate&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;ManualDate&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;83&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="Id"&gt;&lt;Caption&gt;شماره سند&lt;/Caption&gt;&lt;DataMember&gt;DocId&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Id&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;68&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="Comment"&gt;&lt;Caption&gt;شــــرح&lt;/Caption&gt;&lt;DataMember&gt;Comment&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Comment&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;187&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="Name"&gt;&lt;Caption&gt;ارز&lt;/Caption&gt;&lt;DataMember&gt;Currency&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Name&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;46&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="BedPrice"&gt;&lt;Caption&gt;بدهکار&lt;/Caption&gt;&lt;DataMember&gt;BedPrice&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;BedPrice&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="Bestankar"&gt;&lt;Caption&gt;بستانکار&lt;/Caption&gt;&lt;DataMember&gt;BesPrice&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Bestankar&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;122&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="T"&gt;&lt;Caption&gt;T&lt;/Caption&gt;&lt;DataMember&gt;T&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;T&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;50&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="Mandeh"&gt;&lt;Caption&gt;مانده&lt;/Caption&gt;&lt;DataMember&gt;Mandeh&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Mandeh&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Width&gt;141&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="Master"&gt;&lt;Caption&gt;ارز مرجع&lt;/Caption&gt;&lt;DataMember&gt;Master&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Master&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Width&gt;114&lt;/Width&gt;&lt;/Column8&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;2&lt;/ColIndex&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ManualDate"&gt;&lt;Caption&gt;تاریخ&lt;/Caption&gt;&lt;DataMember&gt;ManualDate&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;ManualDate&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;83&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="Id"&gt;&lt;Caption&gt;شماره سند&lt;/Caption&gt;&lt;DataMember&gt;DocId&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Id&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;68&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="Comment"&gt;&lt;Caption&gt;شــــرح&lt;/Caption&gt;&lt;DataMember&gt;Comment&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Comment&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;187&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="Name"&gt;&lt;Caption&gt;ارز&lt;/Caption&gt;&lt;DataMember&gt;Currency&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Name&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;46&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="BedPrice"&gt;&lt;Caption&gt;بدهکار&lt;/Caption&gt;&lt;DataMember&gt;BedPrice&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;BedPrice&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Width&gt;94&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="Bestankar"&gt;&lt;Caption&gt;بستانکار&lt;/Caption&gt;&lt;DataMember&gt;BesPrice&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Bestankar&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;96&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="T"&gt;&lt;Caption&gt;T&lt;/Caption&gt;&lt;DataMember&gt;T&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;T&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;50&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="Mandeh"&gt;&lt;Caption&gt;مانده&lt;/Caption&gt;&lt;DataMember&gt;Mandeh&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Mandeh&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Width&gt;115&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="Master"&gt;&lt;Caption&gt;ارز مرجع&lt;/Caption&gt;&lt;DataMember&gt;Master&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Master&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;Width&gt;93&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="Column1"&gt;&lt;Caption&gt;نرخ مبادله&lt;/Caption&gt;&lt;DataMember&gt;RatePrice&lt;/DataMember&gt;&lt;DefaultGroupPrefix /&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Column1&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;/Column9&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;9&lt;/ColIndex&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
   </data>
   <data name="dgvEx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 72</value>
+    <value>3, 77</value>
   </data>
   <data name="dgvEx.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
   <data name="dgvEx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>937, 438</value>
+    <value>937, 433</value>
   </data>
   <data name="dgvEx.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -388,6 +388,6 @@
     <value>AccountSideReportPage</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Metro.MetroForm, DevComponents.DotNetBar2, Version=14.1.0.34, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
 </root>
