@@ -42,7 +42,7 @@ namespace Exchange.App.Pages.Operation
         {
             var result =
                 UtilityClass.GetData(
-                    "select v.Id,v.Comment,v.ManualDate,FullName=(select FullName from Users where users.Id=v.UserId),UserId from VoucherHeaders v  order by ManualDate,Id desc");
+                    "select v.Id,v.Comment,v.ManualDate,FullName=(select FullName from Users where users.Id=v.UserId),UserId from VoucherHeaders v  order by Id desc");
             dgvHeader.AutoGenerateColumns = false;
             dgvHeader.Invoke(new Action(() => dgvHeader.DataSource = result));
         }
