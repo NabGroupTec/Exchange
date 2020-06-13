@@ -914,7 +914,7 @@
     <value>tileControl1</value>
   </data>
   <data name="&gt;&gt;tileControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileControl, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileControl, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;tileControl1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -982,7 +982,7 @@
     <value>TileExit</value>
   </data>
   <data name="&gt;&gt;TileExit.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;TileExit.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2041,145 +2041,145 @@
     <value>tileGroupBaseinfo</value>
   </data>
   <data name="&gt;&gt;tileGroupBaseinfo.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileGroup, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileGroup, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileCustomer.Name" xml:space="preserve">
     <value>xtileCustomer</value>
   </data>
   <data name="&gt;&gt;xtileCustomer.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileCurrency.Name" xml:space="preserve">
     <value>xtileCurrency</value>
   </data>
   <data name="&gt;&gt;xtileCurrency.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileBank.Name" xml:space="preserve">
     <value>xtileBank</value>
   </data>
   <data name="&gt;&gt;xtileBank.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileCoins.Name" xml:space="preserve">
     <value>xtileCoins</value>
   </data>
   <data name="&gt;&gt;xtileCoins.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileCashBox.Name" xml:space="preserve">
     <value>xtileCashBox</value>
   </data>
   <data name="&gt;&gt;xtileCashBox.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileCost.Name" xml:space="preserve">
     <value>xtileCost</value>
   </data>
   <data name="&gt;&gt;xtileCost.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileIncome.Name" xml:space="preserve">
     <value>xtileIncome</value>
   </data>
   <data name="&gt;&gt;xtileIncome.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileAccount.Name" xml:space="preserve">
     <value>xtileAccount</value>
   </data>
   <data name="&gt;&gt;xtileAccount.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileProperty.Name" xml:space="preserve">
     <value>xtileProperty</value>
   </data>
   <data name="&gt;&gt;xtileProperty.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileEmployee.Name" xml:space="preserve">
     <value>xtileEmployee</value>
   </data>
   <data name="&gt;&gt;xtileEmployee.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileGetDoc.Name" xml:space="preserve">
     <value>xtileGetDoc</value>
   </data>
   <data name="&gt;&gt;xtileGetDoc.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtilePayDoc.Name" xml:space="preserve">
     <value>xtilePayDoc</value>
   </data>
   <data name="&gt;&gt;xtilePayDoc.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileUsers.Name" xml:space="preserve">
     <value>xtileUsers</value>
   </data>
   <data name="&gt;&gt;xtileUsers.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileEstate.Name" xml:space="preserve">
     <value>xtileEstate</value>
   </data>
   <data name="&gt;&gt;xtileEstate.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;tileGroupOperation.Name" xml:space="preserve">
     <value>tileGroupOperation</value>
   </data>
   <data name="&gt;&gt;tileGroupOperation.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileGroup, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileGroup, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileOpDocument.Name" xml:space="preserve">
     <value>xtileOpDocument</value>
   </data>
   <data name="&gt;&gt;xtileOpDocument.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;tileGroupReports.Name" xml:space="preserve">
     <value>tileGroupReports</value>
   </data>
   <data name="&gt;&gt;tileGroupReports.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileGroup, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileGroup, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileReportMoein.Name" xml:space="preserve">
     <value>xtileReportMoein</value>
   </data>
   <data name="&gt;&gt;xtileReportMoein.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileReportDaily.Name" xml:space="preserve">
     <value>xtileReportDaily</value>
   </data>
   <data name="&gt;&gt;xtileReportDaily.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileReportBalanceSheet.Name" xml:space="preserve">
     <value>xtileReportBalanceSheet</value>
   </data>
   <data name="&gt;&gt;xtileReportBalanceSheet.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;tileAccountReview.Name" xml:space="preserve">
     <value>tileAccountReview</value>
   </data>
   <data name="&gt;&gt;tileAccountReview.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;tileGroupSystem.Name" xml:space="preserve">
     <value>tileGroupSystem</value>
   </data>
   <data name="&gt;&gt;tileGroupSystem.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileGroup, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileGroup, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;xtileSetting.Name" xml:space="preserve">
     <value>xtileSetting</value>
   </data>
   <data name="&gt;&gt;xtileSetting.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>HomePage</value>
