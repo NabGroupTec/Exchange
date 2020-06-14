@@ -16,12 +16,11 @@ namespace Exchange.App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            // Application.Run(new ReportViewerPage());
             var splashPage = new SplashScreenPage();
             var dr = splashPage.ShowDialog();
             if (dr == DialogResult.OK)
             {
-                var login = new LoginPage();
+                var login = new LoginPage(); 
                 var result = login.ShowDialog();
                 if (result == DialogResult.OK)
                     Application.Run(new HomePage());
