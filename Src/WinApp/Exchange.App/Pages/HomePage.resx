@@ -719,19 +719,19 @@
   </data>
   <data name="resource.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
 </value>
   </data>
   <data name="tileItemElement2.Text" xml:space="preserve">
@@ -760,17 +760,17 @@
   </data>
   <data name="resource.Image1" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAMnRFWHRUaXRsZQBDdXN0b21l
-        cjtFbXBsb3llZTtQZXJzb247Q29udGFjdDtVc2VyO0NsaWVudH4RNugAAAHHSURBVFhHxda/K8VRGMdx
-        xWIwKLISi8HdraQoi/K3SAaJ5dbd/VisUgY7CyspyaCkiFHIQFFf71Pfr57n9JznfAf3Gl7D59zzfJ7D
-        TekqiuJfqbC0t1XHPPbxiK/SEw6wIPvqUIGCnE0UGbuyM0cFhj2zsBZaFmWvRwUGPeHXbi2zHMpejwoM
-        em5gLbPcyl6PCgx63mEts7zKXo8KDHqsRSmfstejAoMpU7AWeaZkd4oKDKVsw1ri2ZbdKSowlNKEtcTT
-        lN0pKjCUMopnWIss4e6o7E5RgSHPKqxllmXZ61GBQc8ErGWWCdnrUYHBnCNYC6Vj2ZmjAsM5DXzAWhyE
-        zxqyM0cFhuuYwwvi5W+Yk311qEBBXYNYQfhKTrGGIdlVlwqU5HQbZ7/Kjh7ZmaNCXBiZxAXGxFks/KVc
-        YlL2elQQRZVhrOMa1Xd9gl7Ed/twjupemNnAiNwRU4HLlX7sIPy/VxVKZ5hGT2kGV7Duho7Q1S93VVTg
-        UjCOO1hlse+S9VksdI7LfYEKXBjAfTnQDqF7QO6MH9ASl9ulJXfGD2jnT1+5lzvjB1gDf07ujB/wEF9u
-        gwe5Uz3gP5iHnWQedpJ52DlF1w/TSoXqAtuVOgAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAydEVYdFRpdGxlAEN1c3RvbWVyO0VtcGxveWVlO1Bl
+        cnNvbjtDb250YWN0O1VzZXI7Q2xpZW50fhE26AAAAcdJREFUWEfF1r8rxVEYx3HFYjAoshKLwd2tpCiL
+        8rdIBonl1t39WKxSBjsLKynJoKSIUchAUV/vU9+vnuf0nOd8B/caXsPn3PN8nsNN6SqK4l+psLS3Vcc8
+        9vGIr9ITDrAg++pQgYKcTRQZu7IzRwWGPbOwFloWZa9HBQY94dduLbMcyl6PCgx6bmAts9zKXo8KDHre
+        YS2zvMpejwoMeqxFKZ+y16MCgylTsBZ5pmR3igoMpWzDWuLZlt0pKjCU0oS1xNOU3SkqMJQyimdYiyzh
+        7qjsTlGBIc8qrGWWZdnrUYFBzwSsZZYJ2etRgcGcI1gLpWPZmaMCwzkNfMBaHITPGrIzRwWG65jDC+Ll
+        b5iTfXWoQEFdg1hB+EpOsYYh2VWXCpTkdBtnv8qOHtmZo0JcGJnEBcbEWSz8pVxiUvZ6VBBFlWGs4xrV
+        d32CXsR3+3CO6l6Y2cCI3BFTgcuVfuwg/L9XFUpnmEZPaQZXsO6GjtDVL3dVVOBSMI47WGWx75L1WSx0
+        jst9gQpcGMB9OdAOoXtA7owf0BKX26Uld8YPaOdPX7mXO+MHWAN/Tu6MH/AQX26DB7lTPeA/mIedZB52
+        knnYOUXXD9NKheoC25U6AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="tileItemElement10.Text" xml:space="preserve">
@@ -889,10 +889,13 @@
   <data name="tileItemElement19.Text" xml:space="preserve">
     <value>مرور حساب</value>
   </data>
+  <data name="tileItemElement20.Text" xml:space="preserve">
+    <value>گزارش  PackingList</value>
+  </data>
   <data name="tileGroupReports.Text" xml:space="preserve">
     <value>گزارشات</value>
   </data>
-  <data name="tileItemElement20.Text" xml:space="preserve">
+  <data name="tileItemElement21.Text" xml:space="preserve">
     <value>تنظیمات</value>
   </data>
   <data name="tileGroupSystem.Text" xml:space="preserve">
@@ -2179,6 +2182,12 @@
     <value>xtileSetting</value>
   </data>
   <data name="&gt;&gt;xtileSetting.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tilePackList.Name" xml:space="preserve">
+    <value>tilePackList</value>
+  </data>
+  <data name="&gt;&gt;tilePackList.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

@@ -34,6 +34,7 @@
             this.dataSet_AccountSide = new Exchange.App.DataSets.DataSet_AccountSide();
             this.reportViewer = new Microsoft.Reporting.WinForms.ReportViewer();
             this.reportViewerDaily = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.reportViewerPack = new Microsoft.Reporting.WinForms.ReportViewer();
             ((System.ComponentModel.ISupportInitialize)(this.dataSetAccountSideBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet_AccountSide)).BeginInit();
             this.SuspendLayout();
@@ -73,14 +74,27 @@
             this.reportViewerDaily.TabIndex = 1;
             this.reportViewerDaily.Visible = false;
             // 
+            // reportViewerPack
+            // 
+            this.reportViewerPack.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reportViewerPack.LocalReport.ReportEmbeddedResource = "Exchange.App.Pages.Report.PackingListReport.rdlc";
+            this.reportViewerPack.Location = new System.Drawing.Point(0, 0);
+            this.reportViewerPack.Name = "reportViewerPack";
+            this.reportViewerPack.ServerReport.BearerToken = null;
+            this.reportViewerPack.Size = new System.Drawing.Size(952, 584);
+            this.reportViewerPack.TabIndex = 2;
+            this.reportViewerPack.Visible = false;
+            // 
             // ReportViewerPage
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(952, 584);
+            this.Controls.Add(this.reportViewerPack);
             this.Controls.Add(this.reportViewerDaily);
             this.Controls.Add(this.reportViewer);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("IRANSans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.ForeColor = System.Drawing.Color.Black;
             this.KeyPreview = true;
             this.Name = "ReportViewerPage";
             this.ShowIcon = false;
@@ -99,5 +113,6 @@
         private System.Windows.Forms.BindingSource dataSetAccountSideBindingSource;
         private DataSets.DataSet_AccountSide dataSet_AccountSide;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewerDaily;
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewerPack;
     }
 }

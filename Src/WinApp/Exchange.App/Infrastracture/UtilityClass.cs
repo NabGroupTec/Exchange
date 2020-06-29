@@ -14,6 +14,7 @@ using System.Windows.Forms;
 using DevComponents.DotNetBar;
 using DevComponents.DotNetBar.Controls;
 using Exchange.Domain.DataAccess;
+using Exchange.Domain.DataAccess.Migrations;
 using Janus.Windows.GridEX;
 using Janus.Windows.GridEX.Export;
 using MetroFramework.Controls;
@@ -139,6 +140,45 @@ namespace Exchange.App.Infrastracture
             var result = new DataSet();
 
             using (var context = new ExchangeDbContext())
+            {
+                var cmd = context.Database.Connection.CreateCommand();
+                //cmd.CommandType = commandType;
+                cmd.CommandText = sql;
+
+                //foreach (var pr in parameters)
+                //{
+                //    var p = cmd.CreateParameter();
+                //    p.ParameterName = pr.Key;
+                //    p.Value = pr.Value;
+                //    cmd.Parameters.Add(p);
+                //}
+
+                try
+                {
+                    context.Database.Connection.Open();
+                    var reader = cmd.ExecuteReader();
+
+                    do
+                    {
+                        var tb = new DataTable();
+                        tb.Load(reader);
+                        result.Tables.Add(tb);
+                    } while (!reader.IsClosed);
+                }
+                finally
+                {
+                    context.Database.Connection.Close();
+                }
+            }
+
+            return result.Tables[0];
+        }
+
+        public static DataTable GetDataLavan(string sql)
+        {
+            var result = new DataSet();
+
+            using (var context = new LavanDbContext())
             {
                 var cmd = context.Database.Connection.CreateCommand();
                 //cmd.CommandType = commandType;

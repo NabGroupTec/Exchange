@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="DataAccess\ExchangeDbContext.cs" />
     <Compile Include="DataAccess\Migrations\Configuration.cs" />
+    <Compile Include="DataAccess\Migrations\LavanDbContext.cs" />
     <Compile Include="DataAccess\UnitOfWork.cs" />
     <Compile Include="Entities\AccountCapital.cs" />
     <Compile Include="Entities\BankAccount.cs" />

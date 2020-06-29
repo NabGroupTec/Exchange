@@ -33,7 +33,7 @@ namespace Exchange.App.Pages.ReportPage
                     var dsCustomers = row;
                     var reportParameterUser = new ReportParameter("UserName", UtilityClass.FullName);
                     var reportParameterTime = new ReportParameter("Time", DateTime.Now.ToShortTimeString());
-                    var reportParameterDate = new ReportParameter("Date", UtilityClass.JustGetDate().Substring(0, 10));
+                    var reportParameterDate = new ReportParameter("Date",  UtilityClass.JustGetDate().Substring(0, 10));
                     var reportParameterCustomer = new ReportParameter("Customer", EntityName);
                     var dataSource = new ReportDataSource("DataSet_AccountSide", dsCustomers.Tables[0]);
                     reportViewer.LocalReport.DataSources.Clear();
@@ -59,12 +59,32 @@ namespace Exchange.App.Pages.ReportPage
                     reportViewerDaily.LocalReport.DataSources.Add(dataSourceDaily);
                     reportViewerDaily.RefreshReport();
                     break;
+                case "PACK":
+                    reportViewerPack.Visible = true;
+                    var rowPack = new DataSet_PackingList();
+                    foreach (DataRow itemRow in DataTable.Rows)
+                    {
+                        rowPack.PackList.ImportRow(itemRow);
+                    }
+
+                    var dsPack = rowPack;
+                    var rptParameterUserP = new ReportParameter("UserName", UtilityClass.FullName);
+                    var rptParameterTimeP = new ReportParameter("Time", DateTime.Now.ToShortTimeString());
+                    var rptParameterDateP = new ReportParameter("Date", UtilityClass.JustGetDate().Substring(0, 10));
+                    var dataSourcePack = new ReportDataSource("DataSet_PackingList", dsPack.Tables[0]);
+                    reportViewerPack.LocalReport.DataSources.Clear();
+                    reportViewerPack.LocalReport.SetParameters(new[] { rptParameterUserP, rptParameterTimeP, rptParameterDateP });
+                    reportViewerPack.LocalReport.DataSources.Add(dataSourcePack);
+                    reportViewerPack.RefreshReport();
+                    break;
+
             }
         }
 
         private void ReportViewerPage_Load(object sender, EventArgs e)
         {
             Print();
+            this.reportViewerPack.RefreshReport();
         }
     }
 }

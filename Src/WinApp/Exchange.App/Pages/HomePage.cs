@@ -304,5 +304,11 @@ namespace Exchange.App.Pages
             var page = new AccountReviewPage();
             page.ShowDialog();
         }
+
+        private void tilePackList_ItemClick(object sender, TileItemEventArgs e)
+        {
+            var page=new PackingListReport();
+            page.ShowDialog();
+        }
     }
 }

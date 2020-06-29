@@ -168,6 +168,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet_Language.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSets\DataSet_PackingList.cs">
+      <DependentUpon>DataSet_PackingList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DataSet_PackingList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_PackingList.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Infrastracture\PersianHelper.cs" />
     <Compile Include="Infrastracture\SecurityClass.cs" />
     <Compile Include="Infrastracture\UtilityClass.cs" />
@@ -471,6 +479,12 @@
     <Compile Include="Pages\ReportPage\AccountSideReportPage.Designer.cs">
       <DependentUpon>AccountSideReportPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ReportPage\PackingListReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\ReportPage\PackingListReport.Designer.cs">
+      <DependentUpon>PackingListReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ReportPage\ReportViewerPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -730,6 +744,9 @@
     <EmbeddedResource Include="Pages\ReportPage\AccountSideReportPage.resx">
       <DependentUpon>AccountSideReportPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ReportPage\PackingListReport.resx">
+      <DependentUpon>PackingListReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\ReportPage\ReportViewerPage.resx">
       <DependentUpon>ReportViewerPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -737,6 +754,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\Report\DailyReport.rdlc" />
+    <EmbeddedResource Include="Pages\Report\PackingListReport.rdlc" />
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -780,6 +798,17 @@
     </None>
     <None Include="DataSets\DataSet_Language.xss">
       <DependentUpon>DataSet_Language.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSet_PackingList.xsc">
+      <DependentUpon>DataSet_PackingList.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DataSet_PackingList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_PackingList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DataSet_PackingList.xss">
+      <DependentUpon>DataSet_PackingList.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -48,6 +48,7 @@
             DevExpress.XtraEditors.TileItemElement tileItemElement17 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement18 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement19 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement21 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement20 = new DevExpress.XtraEditors.TileItemElement();
             this.metroTileItem1 = new DevComponents.DotNetBar.Metro.MetroTileItem();
             this.galleryContainer2 = new DevComponents.DotNetBar.GalleryContainer();
@@ -98,6 +99,7 @@
             this.tileGroupSystem = new DevExpress.XtraEditors.TileGroup();
             this.xtileSetting = new DevExpress.XtraEditors.TileItem();
             this.TileExit = new DevExpress.XtraEditors.SimpleButton();
+            this.tilePackList = new DevExpress.XtraEditors.TileItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.metroPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -367,8 +369,9 @@
             this.tileControl1.Groups.Add(this.tileGroupOperation);
             this.tileControl1.Groups.Add(this.tileGroupReports);
             this.tileControl1.Groups.Add(this.tileGroupSystem);
-            this.tileControl1.MaxId = 21;
+            this.tileControl1.MaxId = 23;
             this.tileControl1.Name = "tileControl1";
+            this.tileControl1.Position = 615;
             // 
             // tileGroupBaseinfo
             // 
@@ -569,6 +572,7 @@
             this.tileGroupReports.Items.Add(this.xtileReportDaily);
             this.tileGroupReports.Items.Add(this.xtileReportBalanceSheet);
             this.tileGroupReports.Items.Add(this.tileAccountReview);
+            this.tileGroupReports.Items.Add(this.tilePackList);
             this.tileGroupReports.Name = "tileGroupReports";
             resources.ApplyResources(this.tileGroupReports, "tileGroupReports");
             // 
@@ -622,10 +626,10 @@
             // 
             // xtileSetting
             // 
-            tileItemElement20.ImageOptions.Image = global::Exchange.App.Properties.Resources.kbackgammon_engine;
-            tileItemElement20.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
-            resources.ApplyResources(tileItemElement20, "tileItemElement20");
-            this.xtileSetting.Elements.Add(tileItemElement20);
+            tileItemElement21.ImageOptions.Image = global::Exchange.App.Properties.Resources.kbackgammon_engine;
+            tileItemElement21.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomRight;
+            resources.ApplyResources(tileItemElement21, "tileItemElement21");
+            this.xtileSetting.Elements.Add(tileItemElement21);
             this.xtileSetting.Id = 18;
             this.xtileSetting.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.xtileSetting.Name = "xtileSetting";
@@ -639,6 +643,15 @@
             this.TileExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("TileExit.ImageOptions.Image")));
             this.TileExit.Name = "TileExit";
             this.TileExit.Click += new System.EventHandler(this.TileExit_Click);
+            // 
+            // tilePackList
+            // 
+            resources.ApplyResources(tileItemElement20, "tileItemElement20");
+            this.tilePackList.Elements.Add(tileItemElement20);
+            this.tilePackList.Id = 22;
+            this.tilePackList.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
+            this.tilePackList.Name = "tilePackList";
+            this.tilePackList.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tilePackList_ItemClick);
             // 
             // HomePage
             // 
@@ -716,5 +729,6 @@
         private DevExpress.XtraEditors.TileItem xtileSetting;
         private DevExpress.XtraEditors.SimpleButton TileExit;
         private DevExpress.XtraEditors.TileItem tileAccountReview;
+        private DevExpress.XtraEditors.TileItem tilePackList;
     }
 }

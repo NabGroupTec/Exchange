@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_PackingList" targetNamespace="http://tempuri.org/DataSet_PackingList.xsd" xmlns:mstns="http://tempuri.org/DataSet_PackingList.xsd" xmlns="http://tempuri.org/DataSet_PackingList.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_PackingList" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_PackingList" msprop:Generator_UserDSName="DataSet_PackingList">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PackList" msprop:Generator_TableClassName="PackListDataTable" msprop:Generator_TableVarName="tablePackList" msprop:Generator_TablePropName="PackList" msprop:Generator_RowDeletingName="PackListRowDeleting" msprop:Generator_RowChangingName="PackListRowChanging" msprop:Generator_RowEvHandlerName="PackListRowChangeEventHandler" msprop:Generator_RowDeletedName="PackListRowDeleted" msprop:Generator_UserTableName="PackList" msprop:Generator_RowChangedName="PackListRowChanged" msprop:Generator_RowEvArgName="PackListRowChangeEvent" msprop:Generator_RowClassName="PackListRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FaxNo" msprop:Generator_ColumnVarNameInTable="columnFaxNo" msprop:Generator_ColumnPropNameInRow="FaxNo" msprop:Generator_ColumnPropNameInTable="FaxNoColumn" msprop:Generator_UserColumnName="FaxNo" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceNo" msprop:Generator_ColumnVarNameInTable="columnInvoiceNo" msprop:Generator_ColumnPropNameInRow="InvoiceNo" msprop:Generator_ColumnPropNameInTable="InvoiceNoColumn" msprop:Generator_UserColumnName="InvoiceNo" type="xs:string" minOccurs="0" />
+              <xs:element name="MarkName" msprop:Generator_ColumnVarNameInTable="columnMarkName" msprop:Generator_ColumnPropNameInRow="MarkName" msprop:Generator_ColumnPropNameInTable="MarkNameColumn" msprop:Generator_UserColumnName="MarkName" type="xs:string" minOccurs="0" />
+              <xs:element name="ITEMNo" msprop:Generator_ColumnVarNameInTable="columnITEMNo" msprop:Generator_ColumnPropNameInRow="ITEMNo" msprop:Generator_ColumnPropNameInTable="ITEMNoColumn" msprop:Generator_UserColumnName="ITEMNo" type="xs:string" minOccurs="0" />
+              <xs:element name="CartonNo" msprop:Generator_ColumnVarNameInTable="columnCartonNo" msprop:Generator_ColumnPropNameInRow="CartonNo" msprop:Generator_ColumnPropNameInTable="CartonNoColumn" msprop:Generator_UserColumnName="CartonNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Carton" msprop:Generator_ColumnVarNameInTable="columnCarton" msprop:Generator_ColumnPropNameInRow="Carton" msprop:Generator_ColumnPropNameInTable="CartonColumn" msprop:Generator_UserColumnName="Carton" type="xs:double" minOccurs="0" />
+              <xs:element name="CBM" msprop:Generator_ColumnVarNameInTable="columnCBM" msprop:Generator_ColumnPropNameInRow="CBM" msprop:Generator_ColumnPropNameInTable="CBMColumn" msprop:Generator_UserColumnName="CBM" type="xs:double" minOccurs="0" />
+              <xs:element name="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" msprop:Generator_UserColumnName="Quantity" type="xs:double" minOccurs="0" />
+              <xs:element name="SumValue" msprop:Generator_ColumnVarNameInTable="columnSumValue" msprop:Generator_ColumnPropNameInRow="SumValue" msprop:Generator_ColumnPropNameInTable="SumValueColumn" msprop:Generator_UserColumnName="SumValue" type="xs:double" minOccurs="0" />
+              <xs:element name="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_UserColumnName="Price" type="xs:double" minOccurs="0" />
+              <xs:element name="SumPrice" msprop:Generator_ColumnVarNameInTable="columnSumPrice" msprop:Generator_ColumnPropNameInRow="SumPrice" msprop:Generator_ColumnPropNameInTable="SumPriceColumn" msprop:Generator_UserColumnName="SumPrice" type="xs:double" minOccurs="0" />
+              <xs:element name="Komision" msprop:Generator_ColumnVarNameInTable="columnKomision" msprop:Generator_ColumnPropNameInRow="Komision" msprop:Generator_ColumnPropNameInTable="KomisionColumn" msprop:Generator_UserColumnName="Komision" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
